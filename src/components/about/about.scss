@@ -1,0 +1,107 @@
+body {
+    background: gray;
+}
+
+.about {
+    margin: 100px auto 0 auto;
+    position: relative;
+    height: 575px;
+    justify-content: space-between;
+    border-radius: 8px;
+    width: 1200px;
+    background-color: gray;
+}
+
+.about h1 {
+    text-align: center;
+    font-family: Fatface;
+    font-size: 60px;
+}
+
+.row {
+    position: absolute;
+    bottom: 0;
+    height: 375px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row h1 {
+    font-size: 40px;
+}
+
+.imgContainer {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.imgContainer h1 {
+    position: absolute;
+    left: 10px;
+
+}
+
+.paragraph {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    height: 300px;
+    border: 10px solid black;
+    border-radius: 8px;
+    padding: 10px 35px 35px 35px;
+    border-radius: 0 25%;
+    width: 35%;
+    color: white;
+    background: linear-gradient(172deg, teal 80%, black 80%, black 81%, teal 85%, teal 86%, black 86%, black 90%, teal 90%);
+}
+
+.paragraph h2 {
+    text-align: center;
+    font-style: italic;
+}
+
+.about p b {
+    color: black;
+    font-size: larger;
+}
+
+.me {
+    height: 560px;
+    position: fixed;
+    z-index: 1;
+    background: transparent;
+}
+
+.topDiv {
+    position: absolute;
+    bottom: 100px;
+    height: 100px;
+    left: 114.9px;
+    width: 400px;
+    background-color: black;
+    z-index: 0;
+    margin: 0 auto;
+    border-radius: 8px 8px 0px 0px;
+    border-top: none;
+    border: 2px solid red;
+    transform: skew(20deg);
+}
+
+.bottomDiv {
+    position: absolute;
+    bottom: 0;
+    left: 151.9px;
+    height: 100px;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 0px 0px 8px 8px;
+    border: 2px solid red;
+    border-top: none;
+    background-color: black;
+    z-index: 1;
+    transform: skew(20deg);
+}
