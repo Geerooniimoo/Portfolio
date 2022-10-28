@@ -1,17 +1,24 @@
 import "./about.scss";
+import me from './images/me.png';
 import { useEffect } from 'react';
 
 export default function About() {
 
   useEffect(() => {
-    let x = document.querySelector('.imgContainer').getBoundingClientRect().x + 217 + 'px';
-    let y = document.querySelector('.imgContainer').getBoundingClientRect().y - 225 + 'px';
-    document.querySelector('.me').style.left = x;
-    document.querySelector('.me').style.top = y;
-    console.log(('Data: ',document.querySelector('.me').getBoundingClientRect()));
+    let pic = document.querySelector('.me');
+    let hole = document.querySelector('.bottomDiv');
+    let x = hole.getBoundingClientRect().x-25 + 'px';
+    let y = hole.getBoundingClientRect().y-550 + 'px';
+    pic.style.left = x;
+    pic.style.top = y;
+
+    window.addEventListener('resize', () => {
+      let x = hole.getBoundingClientRect().x + 'px';
+      let y = hole.getBoundingClientRect().y + 'px';
+      pic.style.left = x;
+      pic.style.top = -y;
+    });
   });
-
-
 
   return (
     <div className="about">
@@ -20,10 +27,11 @@ export default function About() {
 
       <div className="row">
         <div className="imgContainer">
-        <h1>Ryanne Bennett</h1>
-          <img className="me" src="assets/me3.png" alt="" />
+          <h1>Ryanne Bennett</h1>
+          <img className="me" src={me} alt="" />
           <div className="topDiv"></div>
           <div className="bottomDiv"></div>
+          <div className="extend"></div>
         </div>
 
         <div className="paragraph">
@@ -45,4 +53,4 @@ export default function About() {
       </div>
     </div>
   )
-}
+};

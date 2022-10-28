@@ -1,30 +1,44 @@
+// .imgContainer, .imgContainer * {
+//     border: 2px dotted red;
+// }
+
 body {
-    background: gray;
+    background: slategray;
 }
 
 .about {
-    margin: 100px auto 0 auto;
+    padding: 50px;
     position: relative;
-    height: 575px;
+    height: 650px;
     justify-content: space-between;
     border-radius: 8px;
-    width: 1200px;
-    background-color: gray;
+    // width: 1200px;
+    margin: 0   auto;
+    // background-image: url(./images/backgroundimagework.png);
+    // background-attachment: fixed;
+    // background-repeat: no-repeat;
+    // background-size: cover;
 }
 
 .about h1 {
     text-align: center;
     font-family: Fatface;
     font-size: 60px;
+    color: black;
+    -webkit-text-stroke: .3px lightgray;
+    text-shadow: 3px 3px 2px;
+    padding: 5px;
 }
 
 .row {
     position: absolute;
     bottom: 0;
-    height: 375px;
+    left: 0;
+    // height: 530px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+
 }
 
 .row h1 {
@@ -33,32 +47,34 @@ body {
 
 .imgContainer {
     width: 600px;
-    height: 300px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    // height: 530px;
+    position: relative;
+    // position: absolute;
+    // bottom: 0;
+    // left: 0;
 }
 
 .imgContainer h1 {
     position: absolute;
-    left: 10px;
-
+    left: 0;
+    top: 0
 }
 
 .paragraph {
-    position: absolute;
-    bottom: 0;
-    right: 20px;
+    position: relative;
     height: 300px;
-    border: 10px solid black;
+    margin: 50px;
+    border: 2px solid black;
     border-radius: 8px;
     padding: 10px 35px 35px 35px;
     border-radius: 0 25%;
-    width: 35%;
+    width: 40%;
     color: white;
-    background: linear-gradient(172deg, teal 80%, black 80%, black 81%, teal 85%, teal 86%, black 86%, black 90%, teal 90%);
+    background: linear-gradient(172deg, gray 80%, black 80%, black 81%, teal 85%, teal 86%, black 86%, black 90%, gray 90%);
+    font-size: 1.1rem;
+    bottom: 50px;
+    box-shadow: 5px 5px 20px black;
 }
-
 .paragraph h2 {
     text-align: center;
     font-style: italic;
@@ -70,38 +86,57 @@ body {
 }
 
 .me {
-    height: 560px;
+    height: 700px;
     position: fixed;
     z-index: 1;
-    background: transparent;
 }
 
 .topDiv {
     position: absolute;
-    bottom: 100px;
-    height: 100px;
-    left: 114.9px;
+    bottom: 25px;
+    height: 50px;
+    left: 170px;
     width: 400px;
     background-color: black;
     z-index: 0;
     margin: 0 auto;
-    border-radius: 8px 8px 0px 0px;
+    border-radius: 50%;
     border-top: none;
     border: 2px solid red;
-    transform: skew(20deg);
 }
 
 .bottomDiv {
     position: absolute;
     bottom: 0;
-    left: 151.9px;
-    height: 100px;
+    left: 170px;
+    height: 50px;
     width: 400px;
     margin: 0 auto;
-    border-radius: 0px 0px 8px 8px;
+    border-radius: 0 0 50% 50%;
     border: 2px solid red;
     border-top: none;
     background-color: black;
-    z-index: 1;
-    transform: skew(20deg);
+    z-index: 2;
 }
+
+.extend {
+    background: slategray;
+    height: 50px;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    bottom: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

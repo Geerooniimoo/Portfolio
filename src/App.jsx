@@ -12,13 +12,11 @@ function App() {
 
       <About/>
       <Work/>
+      <Contact/>
       {/* <Navbar/>
       <Menu/>
       <div className="sections">
-        <About/>
-        <Contact/>
         <Skills/>
-        <Work/>
       </div> */}
     </div>
   );

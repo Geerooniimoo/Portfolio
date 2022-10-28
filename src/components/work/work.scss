@@ -1,19 +1,25 @@
+* {
+    // border: 2px dotted red;
+}
+
+
 *::-webkit-scrollbar {
     display: none;
 }
 
 .work {
-    height: 2000px;
+    // height: 2000px;
     position: relative;
     z-index: 1;
-    background: gray;
+    background: orange;
 }
 
 .work .header {
     position: relative;
-    height: 550px;
+    height: 645px;
     background-image: url(images/Cover-Image2.jpg);
     background-attachment: fixed;
+    background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
 }
@@ -21,21 +27,21 @@
 .topBanner {
     height: 365px;
     width: 100%;
-    background-color: gray;
-    transform: skew(0deg, -5deg);
+    transform: skew(0deg, 5deg);
     position: relative;
     bottom: 100px;
-    border-bottom: 4px solid red;
+    border-bottom: 100px solid rgb(26, 25, 25);
+    background: slategray;
 }
 
 .bottomBanner {
     height: 200px;
     width: 100%;
-    background-color: gray;
-    border-top: 4px solid red;
+    border-top: 4px solid black;
     position: absolute;
-    bottom: -120px;
-    transform: skew(0deg, -5deg);
+    bottom: -105px;
+    transform: skew(0deg, 5deg);
+    background: orange;
 }
 
 .work-container {
@@ -85,7 +91,7 @@
     font-size: 5rem;
     text-align: center;
     color: white;
-    transform: skew(0deg,-5deg);
+    transform: skew(0deg,5deg);
     position: relative;
     bottom: 50px;
 }

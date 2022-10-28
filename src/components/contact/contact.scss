@@ -1,3 +1,59 @@
 .contact{
-    background-color: blue;
+    position: relative;
+    z-index: 3;
+    // height: 200vh;
+}
+
+.contact .header {
+    height: 645px;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('./images/backgroundimagecontact.png');
+}
+
+.contact  .header h1 {
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+    transform: skew(0deg,5deg);
+    position: relative;
+    bottom: 50px;
+}
+
+.contactTop {
+    height: 365px;
+    width: 100%;
+    transform: skew(0deg, 5deg);
+    position: relative;
+    bottom: 100px;
+    border-bottom: 100px solid rgb(26, 25, 25);
+    background: orange;
+}
+
+.contactBottom {
+    height: 200px;
+    width: 100%;
+    border-top: 2px solid black;
+    position: absolute;
+    top: 550px;
+    transform: skew(0deg, 5deg);
+    background: #575757;
+}
+
+.contactIcon {
+    background: #575757;
+    display: flex;
+    justify-content: center;
+    // border-bottom: 100px solid black;
+    padding: 500px auto;
+    height: 80vh;
+}
+
+.contactIcon img {
+    width: 100px;
+    margin: 20px;
+    border-radius: 25%;
 }
