@@ -22,7 +22,10 @@ export default function About() {
 
   return (
     <div className="about">
-
+      {/* <a href="mailto:test@test.com"> <i class="fa-regular fa-id-badge"></i><br /> test@test.com</a>
+      <i class="fa-solid fa-phone-volume"></i>
+      <i class="fa-solid fa-copy"></i>
+      <i class="fa-thin fa-square-envelope"></i> */}
       <h1>Full Stack Web Developer</h1>
 
       <div className="row">
