@@ -7,8 +7,22 @@ body {
 
 }
 
-i {
-    font-size: 100px;
+.about i {
+    color: rgba(39, 39, 40, 0.408);
+    position: fixed;
+    z-index: 5;
+}
+
+.fa-id-badge {
+    top: 50px;
+}
+
+.fa-copy {
+    top: 125px
+}
+
+.fa-mobile-screen-button {
+    top: 200px
 }
 
 .about {

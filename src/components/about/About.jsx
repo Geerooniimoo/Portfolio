@@ -7,12 +7,14 @@ export default function About() {
   useEffect(() => {
     let pic = document.querySelector('.me');
     let hole = document.querySelector('.bottomDiv');
+    let about = document.getElementById('about');
     let x = hole.getBoundingClientRect().x-25 + 'px';
     let y = hole.getBoundingClientRect().y-550 + 'px';
     pic.style.left = x;
     pic.style.top = y;
 
     window.addEventListener('resize', () => {
+      window.scrollTo(0,0);
       let x = hole.getBoundingClientRect().x + 'px';
       let y = hole.getBoundingClientRect().y + 'px';
       pic.style.left = x;
@@ -21,11 +23,11 @@ export default function About() {
   });
 
   return (
-    <div className="about">
-      {/* <a href="mailto:test@test.com"> <i class="fa-regular fa-id-badge"></i><br /> test@test.com</a>
-      <i class="fa-solid fa-phone-volume"></i>
-      <i class="fa-solid fa-copy"></i>
-      <i class="fa-thin fa-square-envelope"></i> */}
+    <div className="about" id="about">
+      
+      <a href="#about"><i class="fa-regular fa-id-badge fa-3x"></i></a>
+      <a href="#work"><i class="fa-solid fa-copy fa-3x"></i></a>
+      <a href="#contact"><i class="fa-solid fa-mobile-screen-button fa-3x"></i></a>
       <h1>Full Stack Web Developer</h1>
 
       <div className="row">

@@ -4,7 +4,7 @@ import apps from "./applications.js"
 export default function Work() {
 
   return (
-    <div className="work">
+    <div className="work" id="work">
       <div className="header">
         <div className="topBanner"></div>
         <h1>Applications</h1>
