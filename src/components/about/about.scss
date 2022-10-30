@@ -1,4 +1,4 @@
-// .imgContainer, .imgContainer * {
+// .row, .row * {
 //     border: 2px dotted red;
 // }
 
@@ -18,25 +18,19 @@ body {
 }
 
 .fa-copy {
-    top: 125px
+    top: 150px
 }
 
 .fa-mobile-screen-button {
-    top: 200px
+    top: 250px
 }
 
 .about {
     padding: 50px;
     position: relative;
-    height: 650px;
     justify-content: space-between;
     border-radius: 8px;
-    // width: 1200px;
     margin: 0   auto;
-    // background-image: url(./images/backgroundimagework.png);
-    // background-attachment: fixed;
-    // background-repeat: no-repeat;
-    // background-size: cover;
 }
 
 .about h1 {
@@ -50,14 +44,10 @@ body {
 }
 
 .row {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    // height: 530px;
-    width: 100%;
+    width: 90%;
     display: flex;
-    justify-content: center;
-
+    justify-content: space-around;
+    margin: 10px auto;
 }
 
 .row h1 {
@@ -66,46 +56,38 @@ body {
 
 .imgContainer {
     width: 600px;
-    // height: 530px;
     position: relative;
-    // position: absolute;
-    // bottom: 0;
-    // left: 0;
+    height: 700px;
 }
 
 .imgContainer h1 {
     position: absolute;
-    left: 0;
-    top: 0
+    right: 10px;
+    top: 0;
 }
 
 .paragraph {
-    position: relative;
-    height: 300px;
-    margin: 50px;
     border: 2px solid black;
     border-radius: 8px;
     padding: 10px 35px 35px 35px;
     border-radius: 0 25%;
-    width: 40%;
     color: white;
     background: linear-gradient(172deg, gray 80%, black 80%, black 81%, teal 85%, teal 86%, black 86%, black 90%, gray 90%);
-    font-size: 1.1rem;
-    bottom: 50px;
+    font-size: 1.65rem;
     box-shadow: 5px 5px 20px black;
+    margin: 5%;
+    padding: 1% 2%;
+    width: 1000px;
 }
+
 .paragraph h2 {
     text-align: center;
     font-style: italic;
 }
 
-.about p b {
-    color: black;
-    font-size: larger;
-}
-
 .me {
-    height: 700px;
+    // height: 700px;
+    height: 750px;
     position: fixed;
     z-index: 1;
 }
@@ -114,8 +96,7 @@ body {
     position: absolute;
     bottom: 25px;
     height: 50px;
-    left: 170px;
-    width: 400px;
+    width: 550px;
     background-color: black;
     z-index: 0;
     margin: 0 auto;
@@ -127,9 +108,9 @@ body {
 .bottomDiv {
     position: absolute;
     bottom: 0;
-    left: 170px;
+    // left: 10px;
     height: 50px;
-    width: 400px;
+    width: 550px;
     margin: 0 auto;
     border-radius: 0 0 50% 50%;
     border: 2px solid red;
@@ -140,11 +121,11 @@ body {
 
 .extend {
     background: slategray;
-    height: 50px;
+    height: 800px;
     position: absolute;
     z-index: 1;
     width: 100%;
-    bottom: -10px;
+    bottom: -750px;
 }
 
 

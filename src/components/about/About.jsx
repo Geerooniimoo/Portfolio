@@ -5,18 +5,18 @@ import { useEffect } from 'react';
 export default function About() {
 
   useEffect(() => {
+    window.scrollTo(0,0);
     let pic = document.querySelector('.me');
     let hole = document.querySelector('.bottomDiv');
-    let about = document.getElementById('about');
-    let x = hole.getBoundingClientRect().x-25 + 'px';
-    let y = hole.getBoundingClientRect().y-550 + 'px';
+    let x = hole.getBoundingClientRect().x+40 + 'px';
+    let y = hole.getBoundingClientRect().y-700 + 'px';
     pic.style.left = x;
     pic.style.top = y;
-
+    
     window.addEventListener('resize', () => {
       window.scrollTo(0,0);
-      let x = hole.getBoundingClientRect().x + 'px';
-      let y = hole.getBoundingClientRect().y + 'px';
+      let x = hole.getBoundingClientRect().x+40 + 'px';
+      let y = hole.getBoundingClientRect().y-700 + 'px';
       pic.style.left = x;
       pic.style.top = -y;
     });
@@ -32,7 +32,6 @@ export default function About() {
 
       <div className="row">
         <div className="imgContainer">
-          <h1>Ryanne Bennett</h1>
           <img className="me" src={me} alt="" />
           <div className="topDiv"></div>
           <div className="bottomDiv"></div>
@@ -40,15 +39,13 @@ export default function About() {
         </div>
 
         <div className="paragraph">
-          <h2>About Me</h2>
-          <br />
+          <h2>Ryanne Bennett</h2>
           <p>
             From the world of News Broadcasting production
             where I developed my passion for learning new technology,
             because of the fast pace environment and robotic technology
             slowly taking over live broadcasts.  Whether it’s robotic cameras or web development I’m always up for the challenge to be creative and learn a new skill.
           </p>
-          <br />
           <p>
             Coding has been a huge part of my day to day for years now,
             and I have always wondered what more I can do with it.

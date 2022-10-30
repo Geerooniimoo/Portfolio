@@ -1,6 +1,6 @@
-* {
+// * {
     // border: 2px dotted red;
-}
+// }
 
 
 *::-webkit-scrollbar {
@@ -8,7 +8,6 @@
 }
 
 .work {
-    // height: 2000px;
     position: relative;
     z-index: 1;
     background: orange;
@@ -16,7 +15,7 @@
 
 .work .header {
     position: relative;
-    height: 645px;
+    height: 1200px;
     background-image: url(images/Cover-Image2.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -25,21 +24,30 @@
 }
 
 .topBanner {
-    height: 400px;
+    height: 750px;
     width: 100%;
     transform: skew(0deg, 5deg);
     position: relative;
-    bottom: 150px;
+    bottom: 350px;
     border-bottom: 100px solid #1a1919;
     background: slategray;
 }
 
+.work .header h1 {
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+    transform: skew(0deg, 5deg);
+    position: relative;
+    bottom: 325px;
+}
+
 .bottomBanner {
-    height: 300px;
+    height: 800px;
     width: 100%;
     border-top: 4px solid black;
     position: absolute;
-    bottom: -150px;
+    bottom: -350px;
     transform: skew(0deg, 5deg);
     background: orange;
 }
@@ -88,11 +96,5 @@
     height: 35vh;
 }
 
-.work .header h1 {
-    font-size: 5rem;
-    text-align: center;
-    color: white;
-    transform: skew(0deg, 5deg);
-    position: relative;
-    bottom: 120px;
-}
+
+
