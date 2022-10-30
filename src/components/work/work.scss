@@ -13,14 +13,17 @@
     background: orange;
 }
 
-.work .header {
+.header {
     position: relative;
     height: 1200px;
-    background-image: url(images/Cover-Image2.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+}
+
+.work .header {
+    background-image: url(images/Cover-Image2.jpg);
 }
 
 .topBanner {
@@ -33,13 +36,13 @@
     background: slategray;
 }
 
-.work .header h1 {
+.header h1 {
     font-size: 5rem;
     text-align: center;
     color: white;
     transform: skew(0deg, 5deg);
     position: relative;
-    bottom: 325px;
+    top: -325px;
 }
 
 .bottomBanner {
@@ -97,4 +100,40 @@
 }
 
 
+@media screen and (max-width: 1500px){
+    .row {
+        width: 100%;
+    }
 
+    .header {
+        height: 600px;
+    }
+
+    .topBanner {
+        height: 275px;
+        top: -100px;
+    }
+
+    .header h1 {
+        top: -140px
+    }
+
+    .bottomBanner {
+        height: 350px;
+        bottom: -150px;
+    }
+
+    .contactTop {
+        height: 250px;
+        top: -100px;
+    }
+
+    .contact .header h1 {
+        bottom: 150px;
+    }
+
+    .contactBottom {
+        height: 380px;
+        bottom: -150px;
+    }
+}

@@ -32,6 +32,7 @@ export default function About() {
 
       <div className="row">
         <div className="imgContainer">
+          <h1>Ryanne Bennet</h1>
           <img className="me" src={me} alt="" />
           <div className="topDiv"></div>
           <div className="bottomDiv"></div>
@@ -39,7 +40,8 @@ export default function About() {
         </div>
 
         <div className="paragraph">
-          <h2>Ryanne Bennett</h2>
+          <h2 className="name">Ryanne Bennet</h2>
+          <h2 className="aboutMe">About Me</h2>
           <p>
             From the world of News Broadcasting production
             where I developed my passion for learning new technology,

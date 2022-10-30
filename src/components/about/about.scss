@@ -1,4 +1,4 @@
-// .row, .row * {
+//  .about, .about * {
 //     border: 2px dotted red;
 // }
 
@@ -26,11 +26,7 @@ body {
 }
 
 .about {
-    padding: 50px;
     position: relative;
-    justify-content: space-between;
-    border-radius: 8px;
-    margin: 0   auto;
 }
 
 .about h1 {
@@ -62,8 +58,9 @@ body {
 
 .imgContainer h1 {
     position: absolute;
-    right: 10px;
-    top: 0;
+    right: -130px;
+    top: 100px;
+    display: none;
 }
 
 .paragraph {
@@ -72,18 +69,35 @@ body {
     padding: 10px 35px 35px 35px;
     border-radius: 0 25%;
     color: white;
-    background: linear-gradient(172deg, gray 80%, black 80%, black 81%, teal 85%, teal 86%, black 86%, black 90%, gray 90%);
+    // background: linear-gradient(172deg, gray 80%, black 80%, black 81%, teal 85%, teal 86%, black 86%, black 90%, gray 90%);
+    background-attachment: fixed;
+    background-image: url("./images/Newsbroadcast2.png");
+    background-size: cover;
+    text-shadow: 5px 5px 25px black;
     font-size: 1.65rem;
     box-shadow: 5px 5px 20px black;
     margin: 5%;
+    margin-right: auto;
     padding: 1% 2%;
     width: 1000px;
 }
 
-.paragraph h2 {
+.aboutMe{
+    display: none;
+}
+
+.paragraph h2,.paragraph p {
     text-align: center;
     font-style: italic;
+    background: white;
+    color: black;
+    opacity: 0.75;
+    padding: 5px;
+    border-radius: 8px;
+    width: fit-content;
+    margin: 20px auto;
 }
+
 
 .me {
     // height: 700px;
@@ -108,7 +122,6 @@ body {
 .bottomDiv {
     position: absolute;
     bottom: 0;
-    // left: 10px;
     height: 50px;
     width: 550px;
     margin: 0 auto;
@@ -124,10 +137,42 @@ body {
     height: 800px;
     position: absolute;
     z-index: 1;
-    width: 100%;
+    width: 500px;
     bottom: -750px;
 }
 
+@media screen and (max-width: 1500px){
+    .aboutMe {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1350px){
+    .row {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgContainer h1 {
+        display: block;
+    }
+
+    .paragraph {
+        margin: 20px auto;
+        padding: 0% 2% 4% 2%;
+        position: relative;
+        z-index: 4;
+    }
+
+    .aboutMe {
+        display: block;
+    }
+
+    .name {
+        display: none;
+    }
+}
 
 
 

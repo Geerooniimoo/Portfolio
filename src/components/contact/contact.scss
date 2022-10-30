@@ -10,16 +10,8 @@ i {
 }
 
 .contact .header {
-    height: 1200px;
-    overflow: hidden;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     background-image: url(./images/backgroundimagework.png);
 }
-
-
 
 .contactTop {
     height: 750px;
@@ -29,15 +21,6 @@ i {
     bottom: 350px;
     border-bottom: 100px solid #1a1919;
     background: orange;
-}
-
-.contact .header h1 {
-    font-size: 5rem;
-    text-align: center;
-    color: white;
-    transform: skew(0deg, 5deg);
-    position: relative;
-    bottom: 350px;
 }
 
 .contactBottom {
