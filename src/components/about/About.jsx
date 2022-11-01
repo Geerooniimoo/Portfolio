@@ -10,7 +10,7 @@ export default function About() {
     let y = -700;
 
     if(document.querySelector('.me').getBoundingClientRect().height<600) {
-      y = -470;
+      y = -430;
       x = -3;
     }
     let pic = document.querySelector('.me');
