@@ -3,24 +3,27 @@ import me from './images/me.png';
 import { useEffect } from 'react';
 
 export default function About() {
-
-  useEffect(() => {
+  const setImgLoc = () => {
     window.scrollTo(0,0);
+
+    let x = 40;
+    let y = -700;
+
+    if(document.querySelector('.me').getBoundingClientRect().height<600) {
+      y = -470;
+      x = -3;
+    }
     let pic = document.querySelector('.me');
     let hole = document.querySelector('.bottomDiv');
-    let x = hole.getBoundingClientRect().x+40 + 'px';
-    let y = hole.getBoundingClientRect().y-700 + 'px';
-    pic.style.left = x;
-    pic.style.top = y;
+    pic.style.left = hole.getBoundingClientRect().x + x + 'px';
+    pic.style.top = hole.getBoundingClientRect().y + y + 'px';
+
+
     
-    window.addEventListener('resize', () => {
-      window.scrollTo(0,0);
-      let x = hole.getBoundingClientRect().x+40 + 'px';
-      let y = hole.getBoundingClientRect().y-700 + 'px';
-      pic.style.left = x;
-      pic.style.top = -y;
-    });
-  });
+  };
+
+  useEffect(setImgLoc);
+  window.addEventListener('resize', setImgLoc);
 
   return (
     <div className="about" id="about">

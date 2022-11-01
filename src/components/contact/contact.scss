@@ -38,11 +38,67 @@ i {
     display: flex;
     justify-content: space-around;
     padding: 500px auto;
-    height: 80vh;
+    height: 5vh;
 }
 
 .contactIcon img {
     width: 100px;
     margin: 20px;
     border-radius: 25%;
+}
+
+.footerImg {
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("./images/Newsbroadcast2.png");
+}
+
+@media screen and (max-width: 1350px) {
+    .contact .header {
+        height: 400px;
+    }
+    .contactBottom {
+        bottom: -350px;
+    }
+
+    .contactIcon {
+        background: #575757;
+        display: flex;
+        justify-content: space-around;
+        height: 15vh;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footerImg {
+        height: 75vh;
+    }
+    
+}
+
+
+@media screen and (max-width:768px) {
+    .contact .header {
+        height: 400px;
+    }
+    .contactBottom {
+        bottom: -350px;
+    }
+
+    .contactIcon {
+        background: #575757;
+        display: flex;
+        justify-content: space-around;
+        height: 15vh;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footerImg {
+        height: 75vh;
+    }
+    
 }

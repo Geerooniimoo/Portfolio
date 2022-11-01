@@ -1,6 +1,6 @@
-//  .about, .about * {
-//     border: 2px dotted red;
-// }
+ .about, .about * {
+    border: 2px dotted red;
+}
 
 body {
     background: slategray;
@@ -71,9 +71,8 @@ body {
     color: white;
     // background: linear-gradient(172deg, gray 80%, black 80%, black 81%, teal 85%, teal 86%, black 86%, black 90%, gray 90%);
     background-attachment: fixed;
-    background-image: url("./images/Newsbroadcast2.png");
+    background-image: url("./images/coverimage.png");
     background-size: cover;
-    text-shadow: 5px 5px 25px black;
     font-size: 1.65rem;
     box-shadow: 5px 5px 20px black;
     margin: 5%;
@@ -82,20 +81,23 @@ body {
     width: 1000px;
 }
 
-.aboutMe{
+.aboutMe {
     display: none;
 }
 
-.paragraph h2,.paragraph p {
+.paragraph h2,
+.paragraph p {
     text-align: center;
     font-style: italic;
-    background: white;
+    background: rgb(218, 215, 215);
     color: black;
-    opacity: 0.75;
+    opacity: .85;
     padding: 5px;
     border-radius: 8px;
     width: fit-content;
     margin: 20px auto;
+    box-shadow: 5px 5px 5px black;
+    border: 2px solid black;
 }
 
 
@@ -141,13 +143,13 @@ body {
     bottom: -750px;
 }
 
-@media screen and (max-width: 1500px){
+@media screen and (max-width: 1500px) {
     .aboutMe {
         display: none;
     }
 }
 
-@media screen and (max-width: 1350px){
+@media screen and (max-width: 1350px) {
     .row {
         width: 100%;
         flex-direction: column;
@@ -159,10 +161,11 @@ body {
     }
 
     .paragraph {
-        margin: 20px auto;
-        padding: 0% 2% 4% 2%;
+        margin: 20px 5%;
+        padding: 5%;
         position: relative;
         z-index: 4;
+        width: auto;
     }
 
     .aboutMe {
@@ -174,14 +177,59 @@ body {
     }
 }
 
+@media screen and (max-width:768px) {
+    
+    .paragraph {
+        margin: 20px 5%;
+        padding: 5%;
+        z-index: 4;
+        width: auto;
+    }
+    
+}
 
+@media screen and (max-width:600px) {
+    .about h1 {
+        font-size: 2.5rem;
+        margin-bottom: 0px;
+    }
 
+    .row {
+        display: block;
+    }
 
+    .imgContainer {
+        width: auto;
+        position: relative;
+        height: 545px;
+    }
+    
+    .imgContainer h1 {
+        position: unset;
+        color: slategrey;
+        text-shadow: 2px -2px 4px black;
+        -webkit-text-stroke: 0px;
+    }
 
+    .me {
+        height: 450px;
+    }
 
+    .topDiv {
+        width: 300px;
+        left: 10%;
+    }
 
+    .bottomDiv {
+        width: 300px;
+        left: 10%;
+    }
 
-
-
-
-
+    .paragraph {
+        margin: 20px 5%;
+        padding: 5%;
+        z-index: 4;
+        border-radius: 8px;
+        width: 90%;
+    }
+}
