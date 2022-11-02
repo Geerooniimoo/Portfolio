@@ -14,7 +14,7 @@ export default function Work() {
 
         {apps.map(({ key, title, img, description }) =>
 
-          <div className="app" key={key}>
+          <div className="application" key={key}>
             <img src={img} alt={title} />
             <div className="description">
               <h2>{title}</h2>

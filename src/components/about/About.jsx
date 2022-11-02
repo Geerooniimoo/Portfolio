@@ -4,7 +4,7 @@ import { useEffect } from 'react';
 
 export default function About() {
   const setImgLoc = () => {
-    // window.scrollTo(0,0);
+    window.scrollTo(0,0);
 
     let x = 40;
     let y = -700;
@@ -21,7 +21,7 @@ export default function About() {
   };
 
   useEffect(setImgLoc);
-  window.addEventListener('resize', setImgLoc);
+  window.addEventListener('orientation', setImgLoc);
 
   return (
     <div className="about" id="about">

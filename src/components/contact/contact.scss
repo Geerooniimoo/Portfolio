@@ -11,6 +11,7 @@ i {
 
 .contact .header {
     background-image: url(./images/backgroundimagework.png);
+    background-position-x: center;
 }
 
 .contactTop {
@@ -37,7 +38,8 @@ i {
     background: #575757;
     display: flex;
     justify-content: space-around;
-    padding: 500px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
     height: 5vh;
 }
 
@@ -54,6 +56,7 @@ i {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-image: url("./images/Newsbroadcast2.png");
+    background-position-x: center;
 }
 
 @media screen and (max-width: 1350px) {
@@ -65,9 +68,6 @@ i {
     }
 
     .contactIcon {
-        background: #575757;
-        display: flex;
-        justify-content: space-around;
         height: 15vh;
         flex-direction: column;
         align-items: center;
@@ -79,7 +79,6 @@ i {
     
 }
 
-
 @media screen and (max-width:768px) {
     .contact .header {
         height: 400px;
@@ -87,18 +86,15 @@ i {
     .contactBottom {
         bottom: -350px;
     }
-
-    .contactIcon {
-        background: #575757;
-        display: flex;
-        justify-content: space-around;
-        height: 15vh;
-        flex-direction: column;
-        align-items: center;
-    }
     
     .footerImg {
         height: 75vh;
     }
     
+}
+
+@media screen and (max-width:600px) {
+    .contact a {
+        width: auto;
+    }
 }

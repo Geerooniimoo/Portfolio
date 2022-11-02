@@ -24,6 +24,7 @@
 
 .work .header {
     background-image: url(images/Cover-Image2.jpg);
+    background-position-x: center;
 }
 
 .topBanner {
@@ -64,7 +65,7 @@
     justify-content: space-between;
 }
 
-.work-container .app {
+.application {
     width: 48%;
     border: 2px solid black;
     border-radius: 8px;
@@ -73,17 +74,17 @@
     margin: 20px auto;
 }
 
-.work-container .app:first-child {
+.application:first-child {
     width: 98%;
     margin: 0 auto;
     height: 60vh;
 }
 
-.work-container .app:first-child img {
+.application:first-child img {
     height: 60vh;
 }
 
-.app .description {
+.application .description {
     background: white;
     position: absolute;
     bottom: 10px;
@@ -94,7 +95,7 @@
     opacity: .65;
 }
 
-.work-container .app img {
+.application img {
     width: 100%;
     height: 35vh;
 }
@@ -145,22 +146,12 @@
     .contactBottom {
         bottom: -350px;
     }
-
-    .contactIcon {
-        background: #575757;
-        display: flex;
-        justify-content: space-around;
-        height: 15vh;
-        flex-direction: column;
-        align-items: center;
-    }
     
     .footerImg {
         height: 75vh;
     }
     
 }
-
 
 @media screen and (max-width:768px) {
     .contact .header {
@@ -170,17 +161,24 @@
         bottom: -350px;
     }
 
-    .contactIcon {
-        background: #575757;
-        display: flex;
-        justify-content: space-around;
-        height: 15vh;
-        flex-direction: column;
-        align-items: center;
-    }
-    
     .footerImg {
         height: 75vh;
     }
     
+}
+
+@media screen and (max-width:600px) {
+    .work-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .application:first-child, .application {
+        width: 90%;
+        height: auto;
+    }
+
+    .application:first-child img, .application img {
+        height: auto;
+    }
 }
