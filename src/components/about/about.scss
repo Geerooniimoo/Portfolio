@@ -1,6 +1,6 @@
- .about, .about * {
-    border: 2px dotted red;
-}
+//  .about, .about * {
+//     border: 2px dotted red;
+// }
 
 body {
     background: slategray;
@@ -11,6 +11,7 @@ body {
     color: rgba(39, 39, 40, 0.408);
     position: fixed;
     z-index: 5;
+    font-size: 50px;
 }
 
 .fa-id-badge {
@@ -190,9 +191,21 @@ body {
 }
 
 @media screen and (max-width:600px) {
+    i {
+        font-size: 30px;
+    }
+
+    .fa-copy {
+        top: 100px;
+    }
+
+    .fa-mobile-screen-button {
+        top: 160px;
+    }
     .about h1 {
         font-size: 2.5rem;
-        margin-bottom: 0px;
+        margin: 0px;
+        padding: 0;
     }
 
     .row {
@@ -217,12 +230,12 @@ body {
     }
 
     .topDiv {
-        width: 300px;
+        width: 270px;
         left: 10%;
     }
 
     .bottomDiv {
-        width: 300px;
+        width: 270px;
         left: 10%;
     }
 
