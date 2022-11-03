@@ -12,9 +12,9 @@ export default function Contact() {
       </div>
       <div className="contactIcon" id="contact">
       
-      <a href="Geronimo.Perez4@gmail.com"><i class="fa fa-square-envelope fa-2x"> Ryanne@gmal.com</i></a>
-      <a href="linkedin.com/in/geronimoperez"> <i class="fa-brands fa-linkedin fa-2x"> RyanneBennett</i></a>
-      <a href="https://github.com/Geerooniimoo"> <i class="fa-brands fa-github fa-2x"> Ryanne</i></a>
+      <a href="Geronimo.Perez4@gmail.com"><i class="fa fa-square-envelope"> Ryanne@gmal.com</i></a>
+      <a href="linkedin.com/in/geronimoperez"> <i class="fa-brands fa-linkedin"> RyanneBennett</i></a>
+      <a href="https://github.com/Geerooniimoo"> <i class="fa-brands fa-github"> Ryanne</i></a>
       </div>
       <div className="footerImg"></div>
     </div>

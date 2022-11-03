@@ -4,12 +4,12 @@ import { useEffect } from 'react';
 
 export default function About() {
   const setImgLoc = () => {
-    window.scrollTo(0,0);
+    window.scrollTo(0, 0);
 
     let x = 40;
     let y = -700;
 
-    if(document.querySelector('.me').getBoundingClientRect().height<600) {
+    if (document.querySelector('.me').getBoundingClientRect().height < 600) {
       y = -420;
       x = -1;
     };
@@ -18,6 +18,8 @@ export default function About() {
     let hole = document.querySelector('.bottomDiv');
     pic.style.left = hole.getBoundingClientRect().x + x + 'px';
     pic.style.top = hole.getBoundingClientRect().y + y + 'px';
+    // document.querySelector('.extend').style.top = hole.getBoundingClientRect().top-150+'px';
+    // document.querySelector('.extend').style.top = '500px';
   };
 
   useEffect(setImgLoc);
@@ -25,7 +27,7 @@ export default function About() {
 
   return (
     <div className="about" id="about">
-      
+
       <a href="#about" class="fa-regular"><i class="fa-regular fa-id-badge"></i></a>
       <a href="#work" class="fa-solid"><i class="fa-solid fa-copy"></i></a>
       <a href="#contact" class="fa-solid"><i class="fa-solid fa-mobile-screen-button"></i></a>
@@ -34,10 +36,12 @@ export default function About() {
       <div className="row">
         <div className="imgContainer">
           <h1>Ryanne Bennet</h1>
-          <img className="me" src={me} alt="" />
-          <div className="topDiv"></div>
-          <div className="bottomDiv"></div>
-          <div className="extend"></div>
+          <div className="meDiv">
+            <img className="me" src={me} alt="" />
+            <div className="topDiv"></div>
+            <div className="bottomDiv"></div>
+          </div>
+            <div className="extend"></div>
         </div>
 
         <div className="paragraph">

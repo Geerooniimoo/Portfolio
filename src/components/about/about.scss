@@ -1,9 +1,10 @@
-//  .about, .about * {
+//  .row , .row  * {
 //     border: 2px dotted red;
 // }
 
 body {
     background: slategray;
+    margin: 0;
 
 }
 
@@ -44,21 +45,34 @@ body {
     width: 90%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin: 10px auto;
 }
 
 .row h1 {
     font-size: 40px;
+    margin: 0;
 }
 
 .imgContainer {
-    width: 600px;
     position: relative;
-    height: 700px;
+    width: 315px;
+    height: 545px;
 }
 
-.imgContainer h1 {
-    display: none;
+.meDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 450px;
+}
+
+.me {
+    // height: 700px;
+    // height: 750px;
+    height: 450px;
+    position: fixed;
+    z-index: 1;
 }
 
 .paragraph {
@@ -67,19 +81,17 @@ body {
     padding: 10px 35px 35px 35px;
     border-radius: 0 25%;
     color: white;
-    // background: linear-gradient(172deg, gray 80%, black 80%, black 81%, teal 85%, teal 86%, black 86%, black 90%, gray 90%);
     background-attachment: fixed;
     background-image: url("./images/coverimage.png");
     background-position-x: center;
     background-size: cover;
     font-size: 1.65rem;
     box-shadow: 5px 5px 20px black;
-    margin: 5%;
-    margin-right: auto;
-    padding: 1% 2%;
-    width: 1000px;
+    /* margin: 5%; */
+    /* margin-right: auto; */
+    padding: 2% 5%;
+    width: 60%;
 }
-
 .aboutMe {
     display: none;
 }
@@ -99,19 +111,11 @@ body {
     border: 2px solid black;
 }
 
-
-.me {
-    // height: 700px;
-    height: 750px;
-    position: fixed;
-    z-index: 1;
-}
-
 .topDiv {
-    position: absolute;
-    bottom: 25px;
+    position: relative;
+    top: 25px;
     height: 50px;
-    width: 550px;
+    width: 90%;
     background-color: black;
     z-index: 0;
     margin: 0 auto;
@@ -121,10 +125,10 @@ body {
 }
 
 .bottomDiv {
-    position: absolute;
-    bottom: 0;
+    /* position: absolute; */
+    /* bottom: 0; */
     height: 50px;
-    width: 550px;
+    width: 90%;
     margin: 0 auto;
     border-radius: 0 0 50% 50%;
     border: 2px solid red;
@@ -135,11 +139,11 @@ body {
 
 .extend {
     background: slategray;
-    height: 800px;
-    position: absolute;
+    height: 300vh;
+    position: relative;
     z-index: 1;
-    width: 500px;
-    bottom: -750px;
+    width: 100%;
+    bottom: 10px;
 }
 
 @media screen and (max-width: 1500px) {
@@ -148,47 +152,23 @@ body {
     }
 }
 
-@media screen and (max-width: 1350px) {
-    .row {
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .imgContainer h1 {
-        position: absolute;
-        top: 100px;
-        right: -130px;
-        display: block;
-    }
-
-    .paragraph {
-        margin: 20px 5%;
-        padding: 5%;
-        position: relative;
-        border-radius: 8px;
-        z-index: 4;
-        width: 90%;
-    }
-
-    .aboutMe {
-        display: block;
-    }
-
-    .name {
-        display: none;
-    }
-}
-
-@media screen and (max-width:768px) {
+// @media screen and (max-width:868px) and (orientation: landscape) {
     
-    .paragraph {
-        padding: 5%;
-        z-index: 4;
-        width: auto;
-    }
+//     .imgContainer {
+//         height: 75vh;
+//     }
     
-}
+//     .me {
+//         height: 60vh;
+//     }
+    
+//     .paragraph {
+//         padding: 5%;
+//         z-index: 4;
+//         width: auto;
+//     }
+    
+// }
 
 @media screen and (max-width:600px) {
     .about i {
@@ -236,10 +216,42 @@ body {
     }
 
     .paragraph {
-        margin: 20px auto;
         padding: 5%;
-        z-index: 4;
+        position: relative;
         border-radius: 8px;
+        z-index: 4;
         width: 90%;
     }
+
+    .aboutMe {
+        display: block;
+    }
+
+    .name {
+        display: none;
+    }
 }
+
+// @media screen and (max-width: 1350px) {
+//     .row {
+//         width: 100%;
+//         flex-direction: column;
+//         align-items: center;
+//     }
+
+//     .imgContainer h1 {
+//         position: absolute;
+//         top: 100px;
+//         right: -130px;
+//         display: block;
+//     }
+
+//     .paragraph {
+//         padding: 5%;
+//         position: relative;
+//         border-radius: 8px;
+//         z-index: 4;
+//         width: 90%;
+//     }
+
+// }
