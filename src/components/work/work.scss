@@ -101,6 +101,55 @@
 }
 
 
+// @media screen and (max-width: 1350px) {
+//     .contact .header {
+//         height: 400px;
+//     }
+//     .contactBottom {
+//         bottom: -350px;
+//     }
+    
+//     .footerImg {
+//         height: 75vh;
+//     }
+    
+// }
+
+// @media screen and (max-width:768px) {
+//     .contact .header {
+//         height: 400px;
+//     }
+//     .contactBottom {
+//         bottom: -350px;
+//     }
+
+//     .footerImg {
+//         height: 75vh;
+//     }
+    
+// }
+
+@media screen and (max-width:768px) {
+    
+    .work-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .header h1 {
+        top: -140px;
+    }
+
+    .application:first-child, .application {
+        width: 90%;
+        height: auto;
+    }
+
+    .application:first-child img, .application img {
+        height: auto;
+    }
+}
+
 @media screen and (max-width: 1500px){
     .row {
         width: 100%;
@@ -133,57 +182,5 @@
         bottom: 150px;
     }
 
-    .contactBottom {
-        height: 380px;
-        bottom: -150px;
-    }
 }
 
-// @media screen and (max-width: 1350px) {
-//     .contact .header {
-//         height: 400px;
-//     }
-//     .contactBottom {
-//         bottom: -350px;
-//     }
-    
-//     .footerImg {
-//         height: 75vh;
-//     }
-    
-// }
-
-// @media screen and (max-width:768px) {
-//     .contact .header {
-//         height: 400px;
-//     }
-//     .contactBottom {
-//         bottom: -350px;
-//     }
-
-//     .footerImg {
-//         height: 75vh;
-//     }
-    
-// }
-
-@media screen and (max-width:600px) {
-    
-    .work-container {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .header h1 {
-        top: -140px;
-    }
-
-    .application:first-child, .application {
-        width: 90%;
-        height: auto;
-    }
-
-    .application:first-child img, .application img {
-        height: auto;
-    }
-}

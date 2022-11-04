@@ -14,6 +14,10 @@ export default function About() {
       x = -1;
     };
 
+    if(window.innerHeight< 451) {
+      y = -220
+    }
+
     let pic = document.querySelector('.me');
     let hole = document.querySelector('.bottomDiv');
     pic.style.left = hole.getBoundingClientRect().x + x + 'px';
@@ -27,11 +31,11 @@ export default function About() {
 
   return (
     <div className="about" id="about">
+      <h1>Full Stack Web Developer</h1>
 
       <a href="#about" class="fa-regular"><i class="fa-regular fa-id-badge"></i></a>
       <a href="#work" class="fa-solid"><i class="fa-solid fa-copy"></i></a>
       <a href="#contact" class="fa-solid"><i class="fa-solid fa-mobile-screen-button"></i></a>
-      <h1>Full Stack Web Developer</h1>
 
       <div className="row">
         <div className="imgContainer">

@@ -1,14 +1,10 @@
-//  .row , .row  * {
-//     border: 2px dotted red;
-// }
 
 body {
     background: slategray;
     margin: 0;
-
 }
 
-.about i {
+.about i,.about a {
     color: rgba(39, 39, 40, 0.408);
     position: fixed;
     z-index: 5;
@@ -146,31 +142,13 @@ body {
     bottom: 10px;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1500px) and (orientation:portrait) {
     .aboutMe {
         display: none;
     }
 }
 
-// @media screen and (max-width:868px) and (orientation: landscape) {
-    
-//     .imgContainer {
-//         height: 75vh;
-//     }
-    
-//     .me {
-//         height: 60vh;
-//     }
-    
-//     .paragraph {
-//         padding: 5%;
-//         z-index: 4;
-//         width: auto;
-//     }
-    
-// }
-
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
     .about i {
         font-size: 30px;
     }
@@ -228,6 +206,72 @@ body {
     }
 
     .name {
+        display: none;
+    }
+}
+
+@media screen and (max-width:950px) and (max-height:450px) and (orientation: landscape) {
+    .row {
+        margin: auto;
+        display: flex;
+        height: 80vh;
+    }
+
+    .imgContainer {
+        width: 200px;
+        height: 250px;
+    }
+
+    .imgContainer h1 {
+        display: none;
+    }
+
+    .meDiv {
+        height: 230px;
+    }
+
+    .me {
+        height: 250px;
+    }
+
+    .topDiv {
+        position: relative;
+        top: 16px;
+        height: 15px;
+        width: 160px;
+        background-color: black;
+        z-index: 0;
+        margin: 0 auto;
+        border-radius: 50%;
+        border-top: 2px solid red;
+        border-bottom: none;
+    }
+
+    .bottomDiv {
+        height: 14px;
+        width: 170px;
+        margin: 0 auto;
+        border-radius: 50% 50%;
+        border: 2px solid red;
+        border-top: none;
+        background-color: black;
+        box-shadow: 3px 8px 0px #5c5c70;
+    }
+
+    .paragraph {
+        padding: 5px;
+        width: 60%;
+    }
+
+    .paragraph h2, .paragraph p {
+        font-size: .8rem;
+        margin: 5px auto;
+    }
+
+    .name {
+        display: block;
+    }
+    .aboutMe {
         display: none;
     }
 }

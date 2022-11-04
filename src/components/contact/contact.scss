@@ -59,21 +59,19 @@ i {
     background-position-x: center;
 }
 
-// @media screen and (max-width:768px) {
-//     .contact .header {
-//         height: 400px;
-//     }
-//     .contactBottom {
-//         bottom: -350px;
-//     }
+@media screen and (max-width: 1500px){
+    .contactTop {
+        height: 275px;
+        top: -100px;
+    }
 
-//     .footerImg {
-//         height: 75vh;
-//     }
+    .contactBottom {
+        height: 350px;
+        bottom: -150px;
+    }
+}
 
-// }
-
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
     .contact a {
         width: auto;
     }
@@ -83,8 +81,10 @@ i {
         flex-direction: column;
         align-items: center;
     }
+    
     .contactBottom {
         height: 175px;
+        bottom: -140px;
     }
 
     .contact .header {
