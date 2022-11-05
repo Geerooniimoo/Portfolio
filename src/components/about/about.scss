@@ -1,3 +1,6 @@
+// .meDiv, .meDiv * {
+//     border: 2px dotted red;
+// }
 
 body {
     background: slategray;
@@ -56,19 +59,101 @@ body {
     height: 545px;
 }
 
+.imgContainer h1 {
+    position: unset;
+    color: slategrey;
+    text-shadow: 2px -2px 4px black;
+    -webkit-text-stroke: 0px;
+}
+
+.red, .blue, .yellow {
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    box-shadow: 3px 8px 0px #5c5c70;
+    opacity: .65;
+}
+
+.red {
+    background: red;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 63%;
+    height: 18%;
+}
+
+.blue {
+    background: blue;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 37%;
+    width: 31%;
+}
+
+.yellow {
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: yellow;
+    height: 37%;
+    width: 63%;
+}
+
 .meDiv {
     display: flex;
     flex-direction: column;
     justify-content: end;
+    width: 250px;
     height: 450px;
+    margin: auto;
 }
 
 .me {
-    // height: 700px;
-    // height: 750px;
+    width: 250px;
     height: 450px;
-    position: fixed;
     z-index: 1;
+    position: fixed;
+}
+
+.topDiv {
+    position: relative;
+    bottom: 30px;
+    height: 14px;
+    width: 100%;
+    background-color: black;
+    z-index: 0;
+    margin: 0 auto;
+    border-radius: 50%;
+    border-top: none;
+    border: 2px solid red;
+}
+
+.bottomDiv {
+    position: relative;
+    bottom: 46px;
+    z-index: 2;
+    width: 100%;
+    height: 14px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 2px solid red;
+    border-top: none;
+    background-color: black;
+    box-shadow: 3px 8px 0px #5c5c70;
+}
+
+.extend {
+    background: slategray;
+    height: 300vh;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    bottom: 55px;
 }
 
 .paragraph {
@@ -77,6 +162,7 @@ body {
     padding: 10px 35px 35px 35px;
     border-radius: 0 25%;
     color: white;
+    background-color: #3d3b3d;
     background-attachment: fixed;
     background-image: url("./images/coverimage.png");
     background-position-x: center;
@@ -105,41 +191,6 @@ body {
     margin: 20px auto;
     box-shadow: 5px 5px 5px black;
     border: 2px solid black;
-}
-
-.topDiv {
-    position: relative;
-    top: 25px;
-    height: 50px;
-    width: 90%;
-    background-color: black;
-    z-index: 0;
-    margin: 0 auto;
-    border-radius: 50%;
-    border-top: none;
-    border: 2px solid red;
-}
-
-.bottomDiv {
-    /* position: absolute; */
-    /* bottom: 0; */
-    height: 50px;
-    width: 90%;
-    margin: 0 auto;
-    border-radius: 0 0 50% 50%;
-    border: 2px solid red;
-    border-top: none;
-    background-color: black;
-    z-index: 2;
-}
-
-.extend {
-    background: slategray;
-    height: 300vh;
-    position: relative;
-    z-index: 1;
-    width: 100%;
-    bottom: 10px;
 }
 
 @media screen and (max-width: 1500px) and (orientation:portrait) {
@@ -174,24 +225,17 @@ body {
         width: auto;
         height: 545px;
     }
-    
-    .imgContainer h1 {
-        position: unset;
-        color: slategrey;
-        text-shadow: 2px -2px 4px black;
-        -webkit-text-stroke: 0px;
-    }
 
     .me {
         height: 450px;
     }
 
-    .bottomDiv, .topDiv {
-        width: 270px;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-    }
+    // .bottomDiv, .topDiv {
+    //     width: 270px;
+    //     left: 0;
+    //     right: 0;
+    //     margin: 0 auto;
+    // }
 
     .paragraph {
         padding: 5%;
@@ -218,8 +262,8 @@ body {
     }
 
     .imgContainer {
-        width: 200px;
-        height: 250px;
+        width: 130px;
+        height: 220px;
     }
 
     .imgContainer h1 {
@@ -227,36 +271,38 @@ body {
     }
 
     .meDiv {
-        height: 230px;
+        height: 250px;
+        width: 115px;
     }
 
     .me {
         height: 250px;
+        width: 115px;
     }
 
-    .topDiv {
-        position: relative;
-        top: 16px;
-        height: 15px;
-        width: 160px;
-        background-color: black;
-        z-index: 0;
-        margin: 0 auto;
-        border-radius: 50%;
-        border-top: 2px solid red;
-        border-bottom: none;
-    }
+    // .topDiv {
+    //     position: relative;
+    //     top: 16px;
+    //     height: 15px;
+    //     width: 90%;
+    //     background-color: black;
+    //     z-index: 0;
+    //     margin: 0 auto;
+    //     border-radius: 50%;
+    //     border-top: 2px solid red;
+    //     border-bottom: none;
+    // }
 
-    .bottomDiv {
-        height: 14px;
-        width: 170px;
-        margin: 0 auto;
-        border-radius: 50% 50%;
-        border: 2px solid red;
-        border-top: none;
-        background-color: black;
-        box-shadow: 3px 8px 0px #5c5c70;
-    }
+    // .bottomDiv {
+    //     height: 14px;
+    //     width: 170px;
+    //     margin: 0 auto;
+    //     border-radius: 50% 50%;
+    //     border: 2px solid red;
+    //     border-top: none;
+    //     background-color: black;
+    //     box-shadow: 3px 8px 0px #5c5c70;
+    // }
 
     .paragraph {
         padding: 5px;

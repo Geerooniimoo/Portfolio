@@ -14,7 +14,7 @@ export default function About() {
       x = -1;
     };
 
-    if(window.innerHeight< 451) {
+    if (window.innerHeight < 451) {
       y = -220
     }
 
@@ -22,17 +22,15 @@ export default function About() {
     let hole = document.querySelector('.bottomDiv');
     pic.style.left = hole.getBoundingClientRect().x + x + 'px';
     pic.style.top = hole.getBoundingClientRect().y + y + 'px';
-    // document.querySelector('.extend').style.top = hole.getBoundingClientRect().top-150+'px';
-    // document.querySelector('.extend').style.top = '500px';
   };
 
-  useEffect(setImgLoc);
-  window.addEventListener('orientation', setImgLoc);
+  // useEffect(setImgLoc);
+  // window.addEventListener('orientation', setImgLoc);
 
   return (
     <div className="about" id="about">
-      <h1>Full Stack Web Developer</h1>
 
+      <h1>Full Stack Web Developer</h1>
       <a href="#about" class="fa-regular"><i class="fa-regular fa-id-badge"></i></a>
       <a href="#work" class="fa-solid"><i class="fa-solid fa-copy"></i></a>
       <a href="#contact" class="fa-solid"><i class="fa-solid fa-mobile-screen-button"></i></a>
@@ -40,12 +38,15 @@ export default function About() {
       <div className="row">
         <div className="imgContainer">
           <h1>Ryanne Bennet</h1>
+          <div className="yellow"></div>
+          <div className="red"></div>
+          <div className="blue"></div>
           <div className="meDiv">
             <img className="me" src={me} alt="" />
             <div className="topDiv"></div>
             <div className="bottomDiv"></div>
           </div>
-            <div className="extend"></div>
+          <div className="extend"></div>
         </div>
 
         <div className="paragraph">
