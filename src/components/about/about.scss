@@ -68,7 +68,7 @@ body {
 
 .red, .blue, .yellow {
     position: absolute;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 50%;
     height: 100px;
     width: 100px;
@@ -77,7 +77,7 @@ body {
 }
 
 .red {
-    background: red;
+    background: repeating-linear-gradient(45deg, red 180px, transparent);
     right: 0;
     top: 0;
     bottom: 0;
@@ -87,7 +87,7 @@ body {
 }
 
 .blue {
-    background: blue;
+    background: repeating-linear-gradient(220deg, blue 180px, transparent);
     top: 0;
     bottom: 0;
     margin: auto;
@@ -96,10 +96,10 @@ body {
 }
 
 .yellow {
+    background: repeating-linear-gradient(-45deg, yellow 250px, transparent);
     left: 0;
     right: 0;
     margin: auto;
-    background: yellow;
     height: 37%;
     width: 63%;
 }
