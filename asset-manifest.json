@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-Example/static/css/main.f9326f47.css",
+    "main.css": "/Portfolio-Example/static/css/main.03bb3863.css",
     "main.js": "/Portfolio-Example/static/js/main.888e5797.js",
     "static/media/hidden-gems.png": "/Portfolio-Example/static/media/hidden-gems.07b6acd46b41a556a09e.png",
     "static/media/coverimage.png": "/Portfolio-Example/static/media/coverimage.1c546a98712797b02213.png",
@@ -11,11 +11,11 @@
     "static/media/backgroundimagework.png": "/Portfolio-Example/static/media/backgroundimagework.073ea0defcff04373c70.png",
     "static/media/Newsbroadcast2.png": "/Portfolio-Example/static/media/Newsbroadcast2.8b8e4c2d82a9cc7610d3.png",
     "index.html": "/Portfolio-Example/index.html",
-    "main.f9326f47.css.map": "/Portfolio-Example/static/css/main.f9326f47.css.map",
+    "main.03bb3863.css.map": "/Portfolio-Example/static/css/main.03bb3863.css.map",
     "main.888e5797.js.map": "/Portfolio-Example/static/js/main.888e5797.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9326f47.css",
+    "static/css/main.03bb3863.css",
     "static/js/main.888e5797.js"
   ]
 }
