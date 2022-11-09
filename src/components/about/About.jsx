@@ -1,5 +1,5 @@
 import "./about.scss";
-import me from './images/me.png';
+import me from './images/pic1.png';
 import { useEffect } from 'react';
 
 export default function About() {
@@ -30,14 +30,14 @@ export default function About() {
   return (
     <div className="about" id="about">
 
-      <h1>Full Stack Web Developer</h1>
+      <h1>Analyst And Web Developer</h1>
       <a href="#about" class="fa-regular"><i class="fa-regular fa-id-badge"></i></a>
       <a href="#work" class="fa-solid"><i class="fa-solid fa-copy"></i></a>
       <a href="#contact" class="fa-solid"><i class="fa-solid fa-mobile-screen-button"></i></a>
 
       <div className="row">
         <div className="imgContainer">
-          <h1>Ryanne Bennet</h1>
+          <h1>Geronimo</h1>
           <div className="yellow"></div>
           <div className="red"></div>
           <div className="blue"></div>
@@ -50,7 +50,7 @@ export default function About() {
         </div>
 
         <div className="paragraph">
-          <h2 className="name">Ryanne Bennet</h2>
+          <h2 className="name">Geronimo</h2>
           <h2 className="aboutMe">About Me</h2>
           <p>
             From the world of News Broadcasting production
