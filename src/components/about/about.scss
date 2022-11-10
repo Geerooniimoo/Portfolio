@@ -123,31 +123,31 @@ body {
 
 .topDiv {
     position: relative;
-    bottom: -82px;
-    height: 77px;
-    width: 101%;
+    bottom: -145px;
+    height: 143px;
+    width: 108%;
     background-color: black;
     z-index: 0;
     margin: 0 auto;
     border-radius: 50%;
     border-top: none;
-    border: 3px solid red;
-    left: -15px;
+    border: 2px solid red;
+    left: -24px;
 }
 
 .bottomDiv {
     position: relative;
-    bottom: -32px;
+    bottom: -64px;
+    left: -12px;
     z-index: 2;
-    width: 95%;
-    height: 37px;
+    width: 96%;
+    height: 65px;
     margin: 0 auto;
     border-radius: 50%;
-    border-bottom: 5px solid red;
+    border-bottom: 7px solid red;
     border-top: none;
     background-color: black;
-    box-shadow: 0px 52px 0px #5c5c70;
-    left: -11px;
+    box-shadow: 0px 34px 0px #5c5c70;
 }
 
 .extend {
@@ -156,7 +156,7 @@ body {
     position: relative;
     z-index: 1;
     width: 100%;
-    bottom: -17px;
+    bottom: -35px;
 }
 
 .paragraph {
@@ -167,7 +167,7 @@ body {
     color: white;
     background-color: #3d3b3d;
     background-attachment: fixed;
-    background-image: url("./images/coverimage.png");
+    background-image: url("./images/refuelingShip.jpg");
     background-position-x: center;
     background-size: cover;
     font-size: 1.65rem;
@@ -258,10 +258,38 @@ body {
 }
 
 @media screen and (max-width:950px) and (max-height:450px) and (orientation: landscape) {
+    .red {
+        background: repeating-linear-gradient(45deg, red 80px, transparent);
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 63%;
+        height: 18%;
+    }
+    
+    .blue {
+        background: repeating-linear-gradient(220deg, blue 75px, transparent);
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        height: 37%;
+        width: 31%;
+    }
+    
+    .yellow {
+        background: repeating-linear-gradient(-45deg, yellow 100px, transparent);
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 37%;
+        width: 63%;
+    }
+
     .row {
         margin: auto;
         display: flex;
-        height: 80vh;
+        height: 90vh;
     }
 
     .imgContainer {

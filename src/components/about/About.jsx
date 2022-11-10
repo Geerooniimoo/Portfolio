@@ -53,15 +53,10 @@ export default function About() {
           <h2 className="name">Geronimo</h2>
           <h2 className="aboutMe">About Me</h2>
           <p>
-            From the world of News Broadcasting production
-            where I developed my passion for learning new technology,
-            because of the fast pace environment and robotic technology
-            slowly taking over live broadcasts.  Whether it’s robotic cameras or web development I’m always up for the challenge to be creative and learn a new skill.
+            A veteran with experience as data Analyst, Full-Stack Developer and Network Administrator. Proactive team leader with proven ability to spearhead critical projects. Strategic thinker with a record of developing and implementing innovative solutions and increasing efficiency in challenging environments.
           </p>
           <p>
-            Coding has been a huge part of my day to day for years now,
-            and I have always wondered what more I can do with it.
-            I am ready to change up my career path and challenge myself in new ways!
+            Coding has been a huge part of my day to day for years now.
           </p>
         </div>
       </div>
