@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.def8b03b.css",
-    "main.js": "/Portfolio/static/js/main.2e1bb1c9.js",
+    "main.css": "/Portfolio/static/css/main.e8789084.css",
+    "main.js": "/Portfolio/static/js/main.f8b57e7f.js",
     "static/media/hidden-gems.png": "/Portfolio/static/media/hidden-gems.07b6acd46b41a556a09e.png",
     "static/media/pic1.png": "/Portfolio/static/media/pic1.a15c62b0389d19b93851.png",
     "static/media/platoon.jpg": "/Portfolio/static/media/platoon.845ab2783a479b736fb3.jpg",
@@ -12,11 +12,11 @@
     "static/media/scheduler.png": "/Portfolio/static/media/scheduler.a4586eca47f3051623a4.png",
     "static/media/backgroundimagework.png": "/Portfolio/static/media/backgroundimagework.073ea0defcff04373c70.png",
     "index.html": "/Portfolio/index.html",
-    "main.def8b03b.css.map": "/Portfolio/static/css/main.def8b03b.css.map",
-    "main.2e1bb1c9.js.map": "/Portfolio/static/js/main.2e1bb1c9.js.map"
+    "main.e8789084.css.map": "/Portfolio/static/css/main.e8789084.css.map",
+    "main.f8b57e7f.js.map": "/Portfolio/static/js/main.f8b57e7f.js.map"
   },
   "entrypoints": [
-    "static/css/main.def8b03b.css",
-    "static/js/main.2e1bb1c9.js"
+    "static/css/main.e8789084.css",
+    "static/js/main.f8b57e7f.js"
   ]
 }
