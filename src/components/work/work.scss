@@ -10,7 +10,7 @@
 .work {
     position: relative;
     z-index: 1;
-    background: orange;
+    background: #3e6dc9;
 }
 
 .header {
@@ -53,7 +53,7 @@
     position: absolute;
     bottom: -350px;
     transform: skew(0deg, 5deg);
-    background: orange;
+    background: #3e6dc9;
 }
 
 .work-container {
@@ -152,27 +152,6 @@
     
 // }
 
-@media screen and (max-width:768px) {
-    
-    .work-container {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .header h1 {
-        top: -140px;
-    }
-
-    .application:first-child, .application {
-        width: 90%;
-        height: auto;
-    }
-
-    .application:first-child img, .application img {
-        height: auto;
-    }
-}
-
 @media screen and (max-width: 1500px){
     .row {
         width: 100%;
@@ -207,3 +186,28 @@
 
 }
 
+@media screen and (max-width:768px) {
+    
+    .work-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .work .header {
+        background-image: url(../about/images/platoon.jpg);
+    }
+
+    .header h1 {
+        top: -122px;
+        font-size: 17vmin;
+    }
+
+    .application:first-child, .application {
+        width: 90%;
+        height: auto;
+    }
+
+    .application:first-child img, .application img {
+        height: auto;
+    }
+}

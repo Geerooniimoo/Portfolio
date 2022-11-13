@@ -1,8 +1,13 @@
 .contact {
     position: relative;
     z-index: 3;
+    overflow: hidden;
+    height: 150vh;
+    background-image: url(../about/images/airJump.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 200% 200vh;
 }
-
 i {
     position: relative;
     color: rgb(194, 197, 202);
@@ -21,7 +26,7 @@ i {
     position: relative;
     bottom: 350px;
     border-bottom: 100px solid #1a1919;
-    background: orange;
+    background: #3e6dc9;
 }
 
 .contactBottom {
@@ -59,6 +64,10 @@ i {
     background-position-x: center;
 }
 
+.meBottom {
+    display: none;
+}
+
 @media screen and (max-width: 1500px){
     .contactTop {
         height: 275px;
@@ -72,6 +81,20 @@ i {
 }
 
 @media screen and (max-width:768px) {
+
+    .contact {
+        position: relative;
+        z-index: 3;
+        overflow: hidden;
+        height: 155vh;
+        background-image: url(../about/images/airJump.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 200% 100vh;
+        background-position: 50% 170%;
+        height: 155vh;
+    }
+
     .contact a {
         width: auto;
     }
@@ -89,6 +112,31 @@ i {
 
     .contact .header {
         height: 400px;
+        background-image: url(../about/images/backgroundimagework.png);
+    }
+
+    .meBottom {
+        display: block;
+        position: absolute;
+        top: 120vh;
+        z-index: 4;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 100%;
+        filter: brightness(1.5) drop-shadow(5px 4px 1px black);
+    }
+}
+
+@media screen and (max-width:950px) and (max-height:450px) and (orientation: landscape) {
+    .contact {
+        height: 215vh;
+    }
+
+    .meBottom {
+        top: 170vh;
+        width: 25%;
+        filter: brightness(1.5) drop-shadow(3px 3px 2px black);
     }
 }
 
