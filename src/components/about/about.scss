@@ -253,8 +253,9 @@ body {
     }
 
     .imgContainer {
-        width: auto;
-        height: 650px;
+        width: 90%;
+        height: 610px;
+        margin: 0 auto;
     }
 
     .imgContainer h1 {
@@ -290,7 +291,7 @@ body {
     // }
     
     .meDiv {
-        margin-top: 60px;
+        margin-top: 0px;
     }
     
     .me {
@@ -300,17 +301,17 @@ body {
     .bottomDiv {
         position: absolute;
         z-index: 2;
-        bottom: -11px;
-        height: 28px;
-        width: 72%;
+        bottom: -15px;
+        height: 65px;
+        width: 84%;
         left: 4px;
         right: 0;
         margin: 0 auto;
-        border-radius: 50%;
+        border-radius: 52%;
         border-bottom: 4px solid red;
         border-top: none;
         background-color: black;
-    }
+    }    
 
     .extend {
         bottom: -2500px;
