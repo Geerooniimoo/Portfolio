@@ -80,7 +80,7 @@ body {
     margin: auto;
     height: 55%;
     width: 100%;
-    background: repeating-linear-gradient(-31deg, gray 180PX, black);
+    background: repeating-linear-gradient(-31deg, gray 380PX, black);
 }
 
 .red {
@@ -89,19 +89,8 @@ body {
     margin: auto;
     height: 55%;
     width: 100%;
-    background: repeating-linear-gradient(-31deg, gray 179PX, black);
+    background: repeating-linear-gradient(-31deg, gray 379PX, black);
 }
-
-// .blue {
-//     /* top: 0; */
-//     left: 0;
-//     right: 0;
-//     /* bottom: 0; */
-//     margin: auto;
-//     height: 55%;
-//     width: 100%;
-//     background: repeating-linear-gradient(-31deg, blue 4px, transparent 35px);
-// }
 
 .meDiv {
     display: flex;
@@ -139,9 +128,9 @@ body {
 .bottomDiv {
     position: absolute;
     z-index: 2;
-    bottom: -7px;
-    height: 28px;
-    width: 72%;
+    bottom: -14px;
+    height: 65px;
+    width: 84%;
     left: 4px;
     right: 0;
     margin: 0 auto;
@@ -157,11 +146,11 @@ body {
     position: absolute;
     z-index: 1;
     width: 100%;
-    bottom: -2490px;
+    bottom: -2495px;
 }
 
 .paragraph {
-    border: 2px solid black;
+     // border: 2px solid black;
     border-radius: 8px;
     padding: 10px 35px 35px 35px;
     background-color: #3d3b3d;
@@ -235,6 +224,12 @@ body {
     }
 }
 
+@media screen and (max-width: 1000px) {
+    .paragraph {
+        max-width: 370px;
+    }
+}
+
 @media screen and (max-width:768px) {
     .about i {
         font-size: 30px;
@@ -294,15 +289,6 @@ body {
     //     background: repeating-linear-gradient(31deg, gray 442PX, black);
     // }
     
-    .orange {
-        left: 0;
-        right: 0;
-        margin: auto;
-        height: 55%;
-        width: 100%;
-        background: repeating-linear-gradient(31deg, gray 440PX, black);
-    }
-
     .meDiv {
         margin-top: 60px;
     }

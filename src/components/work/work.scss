@@ -15,7 +15,7 @@
 
 .header {
     position: relative;
-    height: 1200px;
+    height: 800px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +28,7 @@
 }
 
 .topBanner {
-    height: 750px;
+    height: 600px;
     width: 100%;
     transform: skew(0deg, 5deg);
     position: relative;
@@ -47,7 +47,7 @@
 }
 
 .bottomBanner {
-    height: 800px;
+    height: 550px;
     width: 100%;
     border-top: 4px solid black;
     position: absolute;
@@ -173,11 +173,6 @@
     .bottomBanner {
         height: 350px;
         bottom: -150px;
-    }
-
-    .contactTop {
-        height: 250px;
-        top: -100px;
     }
 
     .contact .header h1 {

@@ -40,7 +40,7 @@ export default function About() {
           <h1>Geronimo</h1>
           <div className="yellow"></div>
           <div className="red"></div>
-          <div className="blue"></div>
+          {/* <div className="blue"></div> */}
           <div className="meDiv">
             <img className="me" src={me} alt="" />
           </div>

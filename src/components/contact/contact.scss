@@ -2,12 +2,14 @@
     position: relative;
     z-index: 3;
     overflow: hidden;
-    height: 150vh;
+    height: 180vh;
+    background-color: #7d7d81;
     background-image: url(../about/images/airJump.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 200% 200vh;
+    background-size: 100% 100vh;
 }
+
 i {
     position: relative;
     color: rgb(194, 197, 202);
@@ -20,7 +22,7 @@ i {
 }
 
 .contactTop {
-    height: 750px;
+    height: 600px;
     width: 100%;
     transform: skew(0deg, 5deg);
     position: relative;
@@ -30,7 +32,7 @@ i {
 }
 
 .contactBottom {
-    height: 800px;
+    height: 550px;
     width: 100%;
     border-top: 4px solid black;
     position: absolute;
@@ -64,13 +66,26 @@ i {
     background-position-x: center;
 }
 
+.meBottomDiv {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+
 .meBottom {
-    display: none;
+    height: 100vh;
+    position: relative;
+    bottom: -60vh;
+    filter: brightness(1.5) drop-shadow(3px 3px 2px black);
 }
 
 @media screen and (max-width: 1500px){
     .contactTop {
-        height: 275px;
+        height: 250px;
         top: -100px;
     }
 
@@ -80,19 +95,24 @@ i {
     }
 }
 
+@media screen and (max-width:1000px) {
+    .contact {
+        height: 160vh;
+    }
+}
+
 @media screen and (max-width:768px) {
 
     .contact {
         position: relative;
         z-index: 3;
         overflow: hidden;
-        height: 155vh;
+        height: 145vh;
         background-image: url(../about/images/airJump.jpg);
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: 200% 100vh;
         background-position: 50% 170%;
-        height: 155vh;
     }
 
     .contact a {
@@ -114,29 +134,11 @@ i {
         height: 400px;
         background-image: url(../about/images/backgroundimagework.png);
     }
-
-    .meBottom {
-        display: block;
-        position: absolute;
-        top: 120vh;
-        z-index: 4;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        width: 100%;
-        filter: brightness(1.5) drop-shadow(5px 4px 1px black);
-    }
 }
 
 @media screen and (max-width:950px) and (max-height:450px) and (orientation: landscape) {
     .contact {
         height: 215vh;
-    }
-
-    .meBottom {
-        top: 170vh;
-        width: 25%;
-        filter: brightness(1.5) drop-shadow(3px 3px 2px black);
     }
 }
 
