@@ -1,12 +1,17 @@
 import "./work.scss"
 import apps from "./applications.js"
+import icons from './icons.js'
 
 export default function Work() {
 
   return (
     <div className="work">
       <div className="header">
-        <div className="topBanner"></div>
+        <div className="topBanner">
+          <div className="icons">
+          {icons.map(({key,title,img}) => <img key={key} className="icon" src={img} />)}
+          </div>
+        </div>
         <h1>Applications</h1>
         <div className="bottomBanner"></div>
       </div>
