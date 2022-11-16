@@ -3,7 +3,7 @@
 // }
 
 body {
-    background: slategray;
+    background: #2b7fb7;
     margin: 0;
 }
 
@@ -27,6 +27,7 @@ body {
 
 .about {
     position: relative;
+    padding: 2vh;
 }
 
 .about h1 {
@@ -141,7 +142,7 @@ body {
 }
 
 .extend {
-    background: slategray;
+    background: #2b7fb7;
     height: 2500px;
     position: absolute;
     z-index: 1;
@@ -154,8 +155,8 @@ body {
     border-radius: 8px;
     padding: 10px 35px 35px 35px;
     background-color: #3d3b3d;
-    background-attachment: fixed;
     background-image: url("./images/refuelingShip.jpg");
+    background-attachment: fixed;
     background-position-x: center;
     background-size: cover;
     font-size: 1.65rem;

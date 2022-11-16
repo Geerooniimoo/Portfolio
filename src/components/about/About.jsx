@@ -53,7 +53,7 @@ export default function About() {
           <h2 className="name three">Geronimo</h2>
           <h2 className="aboutMe three">About Me</h2>
           <p class='one'>
-            A veteran with experience as data Analyst, Full-Stack Developer and Network Administrator.
+            Veteran with experience as data Analyst, Full-Stack Developer and Network Administrator.
           </p>
           <p className="five">
             Proactive team leader with proven ability to spearhead critical projects.

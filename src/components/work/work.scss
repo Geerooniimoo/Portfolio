@@ -10,8 +10,8 @@
 .work {
     position: relative;
     z-index: 1;
-    background: #3e6dc9;
-    margin-top: 10vh;
+    background: rgb(201, 141, 31);
+    padding-top: 10vh;
 }
 
 .header {
@@ -34,28 +34,7 @@
     // position: relative;
     // bottom: 350px;
     /* border-bottom: 100px solid #1a1919; */
-    background: slategray;
-}
-
-.icons {
-    display: flex;
-    // position: absolute;
-    z-index: 5;
-    background: black;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
-}
-
-.icon {
-    width: 100px;
-    padding: 5px;
-    margin: 5px 10px;
-    filter: invert(0.5);
-}
-
-.icon:hover {
-    filter: invert(0);
+    background: #2b7fb7;
 }
 
 .header h1 {
@@ -84,6 +63,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    background: rgb(201, 141, 31);
 }
 
 .application {

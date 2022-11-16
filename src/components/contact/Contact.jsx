@@ -6,11 +6,6 @@ import linkedIn from './images/linkedIn.png';
 export default function Contact() {
   return (
     <div className="contact">
-      <div className="header">
-        <div className="contactTop"></div>
-        <h1 id="connect">Contact</h1>
-        <div className="contactBottom"></div>
-      </div>
       <div className="contactIcon" id="contact">
 
         <a href="Geronimo.Perez4@gmail.com"><i class="fa fa-square-envelope">Geronimo.Perez4@Gmail.com</i></a>

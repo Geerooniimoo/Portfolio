@@ -2,7 +2,7 @@
     position: relative;
     z-index: 3;
     overflow: hidden;
-    height: 180vh;
+    height: 100vh;
     background-color: #2e2c30;
     background-image: url(../about/images/airJump.jpg);
     background-attachment: fixed;
@@ -38,11 +38,11 @@ i {
     position: absolute;
     bottom: -350px;
     transform: skew(0deg, 5deg);
-    background: #575757;
+    background: #3e6dc9;
 }
 
 .contactIcon {
-    background: #575757;
+    background: #3e6dc9;
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
