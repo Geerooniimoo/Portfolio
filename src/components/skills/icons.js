@@ -41,8 +41,20 @@ import jupyter from './images/jupyter.png'
 import sequelize from './images/sequelize.png'
 import mongoose from './images/mongoose.png'
 import colab from './images/colab.png'
+import javaScriptXML from './images/javaScriptXML.png'
+import firebase from './images/firebase.png'
 
 const topIcons = [
+    {
+        key:"firebase",
+        title:"firebase",
+        img: `${firebase}`
+    },
+    {
+        key:"javaScriptXML",
+        title:"javaScriptXML",
+        img: `${javaScriptXML}`
+    },
     {
         key:"colab",
         title:"colab",

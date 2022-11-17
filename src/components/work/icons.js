@@ -38,8 +38,20 @@ import splinter from './images/splinter.png'
 import tableau from './images/tableau.png'
 import beautifulSoup from './images/beautifulSoup.png'
 import jupyter from './images/jupyter.png'
+import firebase from './images/firebase.png'
+import javaScriptXML from './images/javaScriptXML.png'
 
 const icons = [
+    {
+        key:"javaScriptXML",
+        title:"javaScriptXML",
+        img: `${javaScriptXML}`
+    },
+    {
+        key:"firebase",
+        title:"firebase",
+        img: `${firebase}`
+    },
     {
         key:"python",
         title:"Python",

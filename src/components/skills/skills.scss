@@ -1,54 +1,32 @@
 .skills {
     position: relative;
     z-index: 2;
-    border-top: 20vh solid #708090;
-}
-
-.filler {
-    height: 20vh;
-    width: 100%;
-    background: #708090;
-    position: absolute;
-    top: 0;
-}
-
-.skillTop {
+    border-top: 20vh solid;
     background-image: url(./images/airJump.jpg);
     background-attachment: fixed;
     background-position-x: center;
     background-size: cover;
+    border-bottom: 20vh solid;
+    height: 110vh;
 }
 
-.skillBottom {
-    height: 22vh;
-    width: 100%;
-    background: #3e6dc9;
-    position: absolute;
-    bottom: -10vh;
-}
-
-.skills h1 {
-    font-size: 5rem;
-    text-align: center;
-    color: white;
-    background-color: transparent;
-    margin: 0;
-    padding: 5vh;
+.skew {
     transform: skew(0deg, 5deg);
-    border-bottom: 20vh solid #3e6dc9;
-    // position: relative;
-    /* top: -325px; */
+    background: transparent;
+    border-top: 30vh solid;
+    border-bottom: 30vh solid black;
+    position: absolute;
+    top: -10vh;
+    bottom: -10vh;
 }
 
 .icons {
     display: flex;
-    // position: absolute;
     z-index: 5;
     background: black;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:space-around;
     width: 100%;
-    transform: skew(0deg,5deg);
 }
 
 .iconDiv {
@@ -106,4 +84,20 @@
 
 .icon:hover {
     filter: invert(0);
+}
+
+.banner {
+    margin: 0;
+    color: white;
+    font-size: 5rem;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+    background-color: transparent;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
