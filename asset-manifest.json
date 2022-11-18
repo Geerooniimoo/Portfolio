@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.5a38d047.css",
+    "main.css": "/Portfolio/static/css/main.8ab5eaac.css",
     "main.js": "/Portfolio/static/js/main.ec21082a.js",
     "static/media/hidden-gems.png": "/Portfolio/static/media/hidden-gems.07b6acd46b41a556a09e.png",
     "static/media/pic1.png": "/Portfolio/static/media/pic1.a15c62b0389d19b93851.png",
@@ -52,11 +52,11 @@
     "static/media/javaScriptXML.png": "/Portfolio/static/media/javaScriptXML.df5aeb8a31f119a33a39.png",
     "static/media/tableau.png": "/Portfolio/static/media/tableau.c16408ac7ef2cfdfadd0.png",
     "index.html": "/Portfolio/index.html",
-    "main.5a38d047.css.map": "/Portfolio/static/css/main.5a38d047.css.map",
+    "main.8ab5eaac.css.map": "/Portfolio/static/css/main.8ab5eaac.css.map",
     "main.ec21082a.js.map": "/Portfolio/static/js/main.ec21082a.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a38d047.css",
+    "static/css/main.8ab5eaac.css",
     "static/js/main.ec21082a.js"
   ]
 }
