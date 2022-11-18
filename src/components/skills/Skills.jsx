@@ -1,9 +1,10 @@
 import "./skills.scss"
 
-const Skills = ({ topColor, icons, banner, bottomColor }) =>
-  <div className="skills" style={{ borderTopColor: topColor, borderBottom: bottomColor }}>
+const Skills = ({ topColor, icons, banner, bottomColor, bg }) =>
+  <div className="skills" style={{ borderTopColor: topColor, borderBottom: bottomColor, backgroundImage: `url(${bg})`}}>
     <div className="skew" style={{borderTopColor:topColor,borderBottomColor:bottomColor}}>
-      <div className="icons" style={{ borderTopColor: topColor }}>
+      <div className="topFill" style={{background:topColor}}></div>
+      <div className="icons" style={{ borderTopColor: topColor}}>
         {
           icons.map(
             ({ key, title, img }) =>
@@ -14,7 +15,8 @@ const Skills = ({ topColor, icons, banner, bottomColor }) =>
           )
         }
       </div>
-      <h1 className="banner" style={{ borderBottomColor: bottomColor }}>{banner}</h1>
+      <h1 className="banner" style={{ borderBottomColor: bottomColor}}>{banner}</h1>
+      <div className="bottomFill" style={{background:bottomColor}}></div>
     </div>
   </div>
 
