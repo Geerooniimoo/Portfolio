@@ -105,3 +105,9 @@
     text-align: center;
     border-bottom: 10vh solid;
 }
+
+@media screen and (max-width:768px) {
+    .banner {
+        font-size: 10vw;
+    }
+}

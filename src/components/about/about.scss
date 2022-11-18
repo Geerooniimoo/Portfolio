@@ -1,5 +1,5 @@
-// .meDiv, .meDiv * {
-//     border: 2px dotted red;
+// .me {
+//     border: 10px dotted red;
 // }
 
 body {
@@ -270,7 +270,7 @@ body {
         margin: auto;
         height: 55%;
         width: 100%;
-        background: repeating-linear-gradient(-31deg, gray 442PX, black);
+        background: repeating-linear-gradient(-31deg, gray 380PX, black);
     }
 
     .red {
@@ -279,7 +279,7 @@ body {
         margin: auto;
         height: 55%;
         width: 100%;
-        background: repeating-linear-gradient(-31deg, gray 440PX, black);
+        background: repeating-linear-gradient(-31deg, gray 385PX, black);
     }
 
     // .blue {
@@ -404,16 +404,17 @@ body {
     }
 
     .bottomDiv {
-        bottom: -7px;
+        bottom: -3px;
+        width: 91%;
+        height: 11%;
+        left: 4px;
+        right: 0;
+        margin: 0 auto;
+        border-bottom: 3px solid red;
     }
 
     .extend {
-        background: slategray;
-        height: 2500px;
-        position: absolute;
-        z-index: 1;
-        width: 100%;
-        bottom: -2525px;
+        bottom: -2492px;
     }
     
     .imgContainer {
@@ -422,9 +423,7 @@ body {
     }
 
     .meDiv {
-        height: 110%;
         width: 115px;
-        margin-top: -60px;
     }
     
     .me {
