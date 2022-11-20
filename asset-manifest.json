@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.8ab5eaac.css",
-    "main.js": "/Portfolio/static/js/main.ec21082a.js",
-    "static/media/hidden-gems.png": "/Portfolio/static/media/hidden-gems.07b6acd46b41a556a09e.png",
+    "main.css": "/Portfolio/static/css/main.7ae1df11.css",
+    "main.js": "/Portfolio/static/js/main.da115286.js",
     "static/media/pic1.png": "/Portfolio/static/media/pic1.a15c62b0389d19b93851.png",
+    "static/media/spiritualEngineering1.jpg": "/Portfolio/static/media/spiritualEngineering1.c2673ddf388c088daea1.jpg",
+    "static/media/reactMemoryGame.png": "/Portfolio/static/media/reactMemoryGame.27f81defab8424ee4213.png",
     "static/media/platoon.jpg": "/Portfolio/static/media/platoon.845ab2783a479b736fb3.jpg",
+    "static/media/analyticsandwebdevelopment.png": "/Portfolio/static/media/analyticsandwebdevelopment.b352f88716d55e37c56a.png",
     "static/media/airJump.jpg": "/Portfolio/static/media/airJump.b3b5aa9d23c45be2a614.jpg",
-    "static/media/README.png": "/Portfolio/static/media/README.95749b1e27f50b79400f.png",
+    "static/media/biodiversityDashboard.png": "/Portfolio/static/media/biodiversityDashboard.446ad8547b8da9a39b6f.png",
     "static/media/refuelingShip.jpg": "/Portfolio/static/media/refuelingShip.baedaf3150bdf1f863cd.jpg",
     "static/media/dashboard.png": "/Portfolio/static/media/dashboard.850c9dd06a8acea258c0.png",
-    "static/media/scheduler.png": "/Portfolio/static/media/scheduler.a4586eca47f3051623a4.png",
     "static/media/beautifulSoup.png": "/Portfolio/static/media/beautifulSoup.c59655143a6918ec01d0.png",
     "static/media/geomapping.png": "/Portfolio/static/media/geomapping.9eb75b2aa300134e109b.png",
     "static/media/machineLearning.png": "/Portfolio/static/media/machineLearning.2254dae6828ba1044921.png",
@@ -52,11 +53,11 @@
     "static/media/javaScriptXML.png": "/Portfolio/static/media/javaScriptXML.df5aeb8a31f119a33a39.png",
     "static/media/tableau.png": "/Portfolio/static/media/tableau.c16408ac7ef2cfdfadd0.png",
     "index.html": "/Portfolio/index.html",
-    "main.8ab5eaac.css.map": "/Portfolio/static/css/main.8ab5eaac.css.map",
-    "main.ec21082a.js.map": "/Portfolio/static/js/main.ec21082a.js.map"
+    "main.7ae1df11.css.map": "/Portfolio/static/css/main.7ae1df11.css.map",
+    "main.da115286.js.map": "/Portfolio/static/js/main.da115286.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ab5eaac.css",
-    "static/js/main.ec21082a.js"
+    "static/css/main.7ae1df11.css",
+    "static/js/main.da115286.js"
   ]
 }
