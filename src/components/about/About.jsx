@@ -7,9 +7,9 @@ export default function About() {
     <div className="about" id="about">
 
       <h1 className="title">Analyst And Web Developer</h1>
-      <a href="#about" class="fa-regular"><i class="fa-regular fa-id-badge"></i></a>
-      <a href="#work" class="fa-solid"><i class="fa-solid fa-copy"></i></a>
-      <a href="#contact" class="fa-solid"><i class="fa-solid fa-mobile-screen-button"></i></a>
+      <a href="#about" className="fa-regular"><i className="fa-regular fa-id-badge"></i></a>
+      <a href="#work" className="fa-solid"><i className="fa-solid fa-copy"></i></a>
+      <a href="#contact" className="fa-solid"><i className="fa-solid fa-mobile-screen-button"></i></a>
 
       <div className="row">
         <div className="imgContainer">
@@ -27,7 +27,7 @@ export default function About() {
         <div className="paragraph">
           <h2 className="name three">Geronimo</h2>
           <h2 className="aboutMe three">About Me</h2>
-          <p class='one'>
+          <p className='one'>
             Veteran with experience as data Analyst, Full-Stack Developer and Network Administrator.
           </p>
           <p className="five">

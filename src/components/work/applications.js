@@ -1,32 +1,33 @@
-import img1 from './images/hidden-gems.png';
-import img2 from './images/README.png';
-import img3 from './images/scheduler.png';
+import img1 from './images/analyticsandwebdevelopment.png';
+import img2 from './images/spiritualEngineering1.jpg';
+import img3 from './images/dashboard.png';
 import img4 from './images/dashboard.png';
+import img5 from './images/biodiversityDashboard.png';
 
 const apps = [
   {
     key: 1,
-    title: "Web App",
+    title: "Analytics And Web Development",
     img: `${img1}`,
-    description: "A discription of the app",
-    repo: "#",
-    website: "#"
+    description: "Tutoring Booking Site",
+    repo: "https://github.com/Geerooniimoo/geerooniimoo.github.io",
+    website: "https://AnalyticsAndWebDevelopment.com"
   },
   {
     key: 2,
-    title: "README APP",
+    title: "Spiritual Engineering",
     img: `${img2}`,
-    description: "A discription of the app",
-    repo: "#",
-    website: "#"
+    description: "Trivia Game",
+    repo: "https://Github.com/Geerooniimoo/SpiritualEngineering",
+    website: "https://spiritualengineering.herokuapp.com"
   },
   {
     key: 3,
-    title: "Workday Scheduler",
-    img: `${img3}`,
-    description: "A discription of the app",
-    repo: "#",
-    website: "#"
+    title: "Biodiversity Dashboard",
+    img: `${img5}`,
+    description: "Graphs biodiversity information",
+    repo: "https://github.com/Geerooniimoo/plotly-challenge",
+    website: "https://analyticsandwebdevelopment.com/plotly-challenge/"
   },
   {
     key: 4,
@@ -38,8 +39,8 @@ const apps = [
   },
   {
     key: 5,
-    title: "App 5",
-    img: "https://picsum.photos/200/200",
+    title: "Workday Scheduler",
+    img: `${img3}`,
     description: "A discription of the app",
     repo: "#",
     website: "#"

@@ -8,9 +8,9 @@ const Skills = ({ topColor, icons, banner, bottomColor, bg }) =>
         {
           icons.map(
             ({ key, title, img }) =>
-              <div className="iconDiv">
+              <div key={key} className="iconDiv">
                 <label htmlFor={title}>{title.toLocaleUpperCase()}</label>
-                <img key={key} className="icon" src={img} />
+                <img className="icon" src={img} />
               </div>
           )
         }
