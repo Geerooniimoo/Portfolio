@@ -14,7 +14,7 @@ export default function Work() {
             <div className="description">
               <h3>{title}</h3>
               <p>{description}</p>
-              <a href={repo} target="_blank" className="githubBtn"><button>repo</button></a>
+              {/* <a href={repo} target="_blank" className="githubBtn"><button>repo</button></a> */}
               <a href={website} target="_blank" className="websiteBtn"><button>website</button></a>
             </div>
           </div>
