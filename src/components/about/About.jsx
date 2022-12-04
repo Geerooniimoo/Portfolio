@@ -19,8 +19,8 @@ export default function About() {
           <div className="meDiv">
             <img className="me" src={me} alt="" />
           </div>
-            <div className="topDiv"></div>
-            <div className="bottomDiv"></div>
+          <div className="topDiv"></div>
+          <div className="bottomDiv"></div>
           <div className="extend"></div>
         </div>
 
@@ -34,7 +34,7 @@ export default function About() {
             Proactive team leader with proven ability to spearhead critical projects.
           </p>
           <p className="two">
-             Strategic thinker with a record of developing and implementing innovative solutions and increasing efficiency in challenging environments.
+            Strategic thinker with a record of developing and implementing innovative solutions and increasing efficiency in challenging environments.
           </p>
           <p className="four">
             Coding has been a huge part of my day to day for years now.

@@ -38,6 +38,9 @@ import splinter from './images/splinter.png'
 import tableau from './images/tableau.png'
 import beautifulSoup from './images/beautifulSoup.png'
 import jupyter from './images/jupyter.png'
+import Apollo from './images/Apollo.png'
+import graphQL from './images/graphQL.png'
+import pyspark from './images/pyspark.png'
 import sequelize from './images/sequelize.png'
 import mongoose from './images/mongoose.png'
 import colab from './images/colab.png'
@@ -270,9 +273,24 @@ const bottomIcons = [
         img: `${beautifulSoup}`
     },
     {
+        key:"pyspark",
+        title:"pyspark",
+        img: `${pyspark}`
+    },
+    {
         key:"jupyter",
         title:"jupyter",
         img: `${jupyter}`
+    },
+    {
+        key:"graphQL",
+        title:"graphQL",
+        img: `${graphQL}`
+    },
+    {
+        key:"Apollo",
+        title:"Apollo",
+        img: `${Apollo}`
     }
 ];
 

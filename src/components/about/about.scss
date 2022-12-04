@@ -111,6 +111,7 @@ body {
     position: fixed;
     filter: brightness(1.5) drop-shadow(15px 0px 10px black);
 }
+
 .topDiv {
     position: absolute;
     width: 100%;
@@ -282,15 +283,6 @@ body {
         background: repeating-linear-gradient(-31deg, gray 385PX, black);
     }
 
-    // .blue {
-    //     left: 0;
-    //     right: 0;
-    //     margin: auto;
-    //     height: 55%;
-    //     width: 100%;
-    //     background: repeating-linear-gradient(31deg, gray 442PX, black);
-    // }
-    
     .meDiv {
         margin-top: 0px;
     }
@@ -299,20 +291,20 @@ body {
         height: 450px;
     }
 
-    .bottomDiv {
-        position: absolute;
-        z-index: 2;
-        bottom: -15px;
-        height: 65px;
-        width: 84%;
-        left: 4px;
-        right: 0;
-        margin: 0 auto;
-        border-radius: 52%;
-        border-bottom: 4px solid red;
-        border-top: none;
-        background-color: black;
-    }    
+    // .bottomDiv {
+    //     position: absolute;
+    //     z-index: 2;
+    //     bottom: -15px;
+    //     height: 65px;
+    //     width: 84%;
+    //     left: 4px;
+    //     right: 0;
+    //     margin: 0 auto;
+    //     border-radius: 52%;
+    //     border-bottom: 4px solid red;
+    //     border-top: none;
+    //     background-color: black;
+    // }    
 
     .extend {
         bottom: -2500px;
@@ -376,15 +368,6 @@ body {
         background: repeating-linear-gradient(-31deg, gray 179PX, black);
     }
     
-    // .blue {
-    //     background: repeating-linear-gradient(220deg, blue 75px, transparent);
-    //     top: 0;
-    //     bottom: 0;
-    //     margin: auto;
-    //     height: 37%;
-    //     width: 31%;
-    // }
-    
     .row {
         margin: auto;
         display: flex;
@@ -432,30 +415,6 @@ body {
         bottom: 25px;
         filter: brightness(1.5) drop-shadow(3px 2px 0px black);
     }
-
-    // .topDiv {
-    //     position: relative;
-    //     top: 16px;
-    //     height: 15px;
-    //     width: 90%;
-    //     background-color: black;
-    //     z-index: 0;
-    //     margin: 0 auto;
-    //     border-radius: 50%;
-    //     border-top: 2px solid red;
-    //     border-bottom: none;
-    // }
-
-    // .bottomDiv {
-    //     height: 14px;
-    //     width: 170px;
-    //     margin: 0 auto;
-    //     border-radius: 50% 50%;
-    //     border: 2px solid red;
-    //     border-top: none;
-    //     background-color: black;
-    //     box-shadow: 3px 8px 0px #5c5c70;
-    // }
 
     .paragraph {
         padding: 5px;
