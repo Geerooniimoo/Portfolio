@@ -8,9 +8,9 @@ export default function Contact() {
     <div className="contact">
       <div className="contactIcon" id="contact">
 
-        <a href="Geronimo.Perez4@gmail.com"><i className="fa fa-square-envelope">Geronimo.Perez4@Gmail.com</i></a>
+        <a href="mailto:Geronimo.Perez4@gmail.com"><i className="fa fa-square-envelope">Geronimo.Perez4@Gmail.com</i></a>
         <a href="https://github.com/Geerooniimoo"> <i className="fa-brands fa-github">Geerooniimoo</i></a>
-        <a href="linkedin.com/in/geronimoperez"> <i className="fa-brands fa-linkedin">Geronimo</i></a>
+        <a href="https://linkedin.com/in/geronimoperez"> <i className="fa-brands fa-linkedin">Geronimo</i></a>
       </div>
       <div className="image"></div>
       <div className="meBottomDiv">
