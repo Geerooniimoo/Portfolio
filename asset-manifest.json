@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.5a183867.css",
-    "main.js": "/Portfolio/static/js/main.f31229ba.js",
+    "main.css": "/Portfolio/static/css/main.ecf88038.css",
+    "main.js": "/Portfolio/static/js/main.646c3c48.js",
     "static/media/pic1.png": "/Portfolio/static/media/pic1.a15c62b0389d19b93851.png",
     "static/media/spiritualEngineering1.jpg": "/Portfolio/static/media/spiritualEngineering1.c2673ddf388c088daea1.jpg",
     "static/media/reactMemoryGame.png": "/Portfolio/static/media/reactMemoryGame.27f81defab8424ee4213.png",
@@ -56,11 +56,11 @@
     "static/media/javaScriptXML.png": "/Portfolio/static/media/javaScriptXML.df5aeb8a31f119a33a39.png",
     "static/media/tableau.png": "/Portfolio/static/media/tableau.c16408ac7ef2cfdfadd0.png",
     "index.html": "/Portfolio/index.html",
-    "main.5a183867.css.map": "/Portfolio/static/css/main.5a183867.css.map",
-    "main.f31229ba.js.map": "/Portfolio/static/js/main.f31229ba.js.map"
+    "main.ecf88038.css.map": "/Portfolio/static/css/main.ecf88038.css.map",
+    "main.646c3c48.js.map": "/Portfolio/static/js/main.646c3c48.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a183867.css",
-    "static/js/main.f31229ba.js"
+    "static/css/main.ecf88038.css",
+    "static/js/main.646c3c48.js"
   ]
 }
