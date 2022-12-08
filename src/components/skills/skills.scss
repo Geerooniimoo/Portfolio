@@ -1,7 +1,7 @@
 .skills {
     position: relative;
     z-index: 2;
-    border-top: 20vh solid;
+    border-top: 12vh solid;
     background-image: url(./images/airJump.jpg);
     background-attachment: fixed;
     background-position-x: center;
@@ -19,12 +19,13 @@
     height: 10vh;
     width: 100%;
     position: absolute;
-    top: -4vh;
-    transform: skew(0deg,-3deg);
+    top: -6vh;
+    z-index: 2;
+    transform: skew(0deg,-2deg);
 }
 
 .bottomFill{
-    height: 10vh;
+    height: 20vh;
     width: 100%;
     position: absolute;
     bottom: -10vh;

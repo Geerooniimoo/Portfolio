@@ -2,7 +2,7 @@ import "./skills.scss"
 
 const Skills = ({ topColor, icons, banner, bottomColor, bg }) =>
   <div className="skills" style={{ borderTopColor: topColor, borderBottom: bottomColor, backgroundImage: `url(${bg})`}}>
-    <div className="skew" style={{borderTopColor:topColor,borderBottomColor:bottomColor}}>
+    <div className="skew">
       <div className="topFill" style={{background:topColor}}></div>
       <div className="icons" style={{ borderTopColor: topColor}}>
         {
