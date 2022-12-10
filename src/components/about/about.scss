@@ -7,12 +7,14 @@ body {
     margin: 0;
 }
 
-.about i, .about a {
+.about i,
+.about a {
     position: fixed;
     z-index: 5;
     font-size: 50px;
     color: #393939;
 }
+
 .fa-id-badge {
     top: 50px;
 }
@@ -67,7 +69,9 @@ body {
     -webkit-text-stroke: 0px;
 }
 
-.red, .blue, .yellow {
+.red,
+.blue,
+.yellow {
     position: absolute;
     border-radius: 50%;
     height: 100px;
@@ -130,14 +134,14 @@ body {
 .bottomDiv {
     position: absolute;
     z-index: 2;
-    bottom: -14px;
-    height: 65px;
-    width: 84%;
+    bottom: -10px;
+    height: 85px;
+    width: 95%;
     left: 4px;
     right: 0;
     margin: 0 auto;
     border-radius: 50%;
-    border-bottom: 4px solid red;
+    border-bottom: 6px solid red;
     border-top: none;
     background-color: black;
 }
@@ -152,7 +156,7 @@ body {
 }
 
 .paragraph {
-     // border: 2px solid black;
+    // border: 2px solid black;
     border-radius: 8px;
     padding: 10px 35px 35px 35px;
     background-color: #3d3b3d;
@@ -189,7 +193,7 @@ body {
         opacity: 0;
         transform: translateY(-50px);
     }
-    
+
     50% {
         opacity: 0;
         transform: translateY(-50px);
@@ -201,7 +205,8 @@ body {
     display: none;
 }
 
-.paragraph h2, .paragraph p {
+.paragraph h2,
+.paragraph p {
     text-align: center;
     background: #000000;
     padding: 0 13px;
@@ -220,7 +225,7 @@ body {
     .aboutMe {
         display: none;
     }
-    
+
     .about i {
         font-size: 30px;
     }
@@ -244,6 +249,7 @@ body {
     .fa-mobile-screen-button {
         top: 160px;
     }
+
     .about h1 {
         font-size: 2.5rem;
         margin: 0px;
@@ -286,7 +292,7 @@ body {
     .meDiv {
         margin-top: 0px;
     }
-    
+
     .me {
         height: 450px;
     }
@@ -307,8 +313,9 @@ body {
     // }    
 
     .extend {
-        bottom: -2500px;
+        bottom: -2480px;
     }
+
     .paragraph {
         padding: 5%;
         position: relative;
@@ -327,7 +334,7 @@ body {
         display: none;
     }
 }
-    
+
 @media screen and (max-width:950px) and (max-height:450px) and (orientation: landscape) {
     .about i {
         font-size: 30px;
@@ -349,7 +356,7 @@ body {
     .imgContainer h1 {
         display: none;
     }
-    
+
     .yellow {
         left: 0;
         right: 0;
@@ -358,7 +365,7 @@ body {
         width: 100%;
         background: repeating-linear-gradient(-31deg, gray 180PX, black);
     }
-    
+
     .red {
         left: 0;
         right: 0;
@@ -367,7 +374,7 @@ body {
         width: 100%;
         background: repeating-linear-gradient(-31deg, gray 179PX, black);
     }
-    
+
     .row {
         margin: auto;
         display: flex;
@@ -377,7 +384,7 @@ body {
     .topDiv {
         left: 0px;
         right: 0px;
-        bottom: -5px;
+        bottom: 13px;
         height: 60px;
         width: 100%;
         margin: 0 auto;
@@ -387,7 +394,7 @@ body {
     }
 
     .bottomDiv {
-        bottom: -3px;
+        bottom: 15px;
         width: 91%;
         height: 11%;
         left: 4px;
@@ -397,9 +404,9 @@ body {
     }
 
     .extend {
-        bottom: -2492px;
+        bottom: -2473px;
     }
-    
+
     .imgContainer {
         width: 130px;
         height: 350px;
@@ -408,7 +415,7 @@ body {
     .meDiv {
         width: 115px;
     }
-    
+
     .me {
         height: 250px;
         width: 115px;
@@ -423,7 +430,8 @@ body {
         margin-bottom: auto;
     }
 
-    .paragraph h2, .paragraph p {
+    .paragraph h2,
+    .paragraph p {
         font-size: .8rem;
         margin: 5px auto;
     }
@@ -431,6 +439,7 @@ body {
     .name {
         display: block;
     }
+
     .aboutMe {
         display: none;
     }
